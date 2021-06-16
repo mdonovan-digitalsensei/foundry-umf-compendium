@@ -27,7 +27,17 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: setup npm
-        run: npm install through2 js-yaml nedb cb metge-stream gulp-clean gulp-zip fs path gulp gulp-cli
+        run: npm install through2 js-yaml nedb cb merge-stream gulp-clean gulp-zip fs path gulp gulp-cli
+      
+      - name: run gulp
+        run: gulp build
       
       - name: zip files
         run: zip build.* artifact.zip
+
+      - name: Upload a Build Artifact
+        uses: actions/upload-artifact@v2.2.4
+        with:
+          # Artifact name           
+          path: "./build/"
+            # The desired behavior if no files are found using the provided path.
