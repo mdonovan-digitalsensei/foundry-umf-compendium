@@ -1,0 +1,20 @@
+name: herpy derpy
+permission:
+  default: 0
+type: equipment
+data:
+  name: ''
+  description: >-
+    <p>a herpy example</p>
+  class: ''
+  quantity: 1
+  weight: 1
+  uses: 5
+  tags: '[{"value":"20 coins"}]'
+  tagsString: 20 coins
+  magic: false
+  itemType: dungeongear
+  attributes: {}
+flags: {}
+img: icons/containers/bags/pack-engraved-leather-tan.webp
+effects: []
