@@ -40,7 +40,7 @@ jobs:
         with:
           # Artifact name
           name: foundry-umf-compendium-${{ github.run_id }}
-          path: ./foundry-umf-compendium-${{ github.run_id }}
+          path: foundry-umf-compendium-${{ github.run_id }}
             # The desired behavior if no files are found using the provided path.
 
 
