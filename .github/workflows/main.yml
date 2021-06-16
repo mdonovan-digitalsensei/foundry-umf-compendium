@@ -42,7 +42,12 @@ jobs:
           name: foundry-umf-compendium-${{ github.run_id }}
           path: ./build/packs
             # The desired behavior if no files are found using the provided path.
-
+      
+      - name: Upload Release
+        uses: ncipollo/release-action@v1
+        with:
+          artifacts: "foundry-umf-compendium-${{ github.run_id }}.zip"
+          token: ${{ secrets.GITHUB_TOKEN }}
 
 #      - name: Create Release
 #        id: create_release
