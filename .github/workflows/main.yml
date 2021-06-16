@@ -33,7 +33,7 @@ jobs:
         run: gulp build
       
       - name: zip files
-        run: zip -r example ~/work/foundry-umf-compendium/foundry-umf-compendium/build 
+        run: zip -r foundry-umf-compendium-${{ github.run_id }} ~/work/foundry-umf-compendium/foundry-umf-compendium/build 
 
       - name: Upload a Build Artifact
         uses: actions/upload-artifact@v2.2.4
