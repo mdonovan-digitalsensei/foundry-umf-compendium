@@ -32,10 +32,10 @@ jobs:
       - name: run gulp
         run: gulp build
       
-      - name: zip files
-        run: |
-          cd ~/work/foundry-umf-compendium/foundry-umf-compendium/build
-          zip -r ${{ github.workspace }}/foundry-umf-compendium-${{ github.run_id }} ./
+#      - name: zip files
+#        run: |
+#          cd ~/work/foundry-umf-compendium/foundry-umf-compendium/build
+#          zip -r ${{ github.workspace }}/foundry-umf-compendium-${{ github.run_id }} ./
           
 
       - name: Upload a Build Artifact
@@ -43,7 +43,7 @@ jobs:
         with:
           # Artifact name
           name: test-archive
-          path: ${{ github.workspace }}/foundry-umf-compendium-${{ github.run_id }}.zip
+          path: ~/work/foundry-umf-compendium/foundry-umf-compendium/build
             # The desired behavior if no files are found using the provided path.
       
 #      - name: Create Release
