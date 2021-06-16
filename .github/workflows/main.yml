@@ -32,15 +32,15 @@ jobs:
       - name: run gulp
         run: gulp build
       
-      - name: zip files
-        run: zip -r foundry-umf-compendium-${{ github.run_id }} ~/work/foundry-umf-compendium/foundry-umf-compendium/build 
+#      - name: zip files
+#        run: zip -r foundry-umf-compendium-${{ github.run_id }} ~/work/foundry-umf-compendium/foundry-umf-compendium/build 
 
       - name: Upload a Build Artifact
         uses: actions/upload-artifact@v2.2.4
         with:
           # Artifact name
           name: foundry-umf-compendium-${{ github.run_id }}
-          path: foundry-umf-compendium-${{ github.run_id }}
+          path: ./build/packs
             # The desired behavior if no files are found using the provided path.
 
 
