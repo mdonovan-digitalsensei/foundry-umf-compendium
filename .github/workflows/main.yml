@@ -33,7 +33,7 @@ jobs:
         run: gulp build
       
       - name: zip files
-        run: zip build.* artifact.zip
+        run: zip ~/work/foundry-umf-compendium/foundry-umf-compendium/build artifact.zip
 
       - name: Upload a Build Artifact
         uses: actions/upload-artifact@v2.2.4
