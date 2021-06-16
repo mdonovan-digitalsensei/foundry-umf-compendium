@@ -35,7 +35,7 @@ jobs:
       - name: zip files
         run: |
           cd ~/work/foundry-umf-compendium/foundry-umf-compendium/build
-          zip -r ${{ github.workspace }}/foundry-umf-compendium-${{ github.run_id }} ./
+          zip -r ${{ github.workspace }}/foundry-umf-compendium ./
           
 
       - name: Upload a Build Artifact
@@ -64,6 +64,6 @@ jobs:
           GITHUB_TOKEN: ${{ github.token }}
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: ${{ github.workspace }}/foundry-umf-compendium-${{ github.run_id }}.zip
-          asset_name: foundry-umf-compendium-${{ github.run_id }}.zip
+          asset_path: ${{ github.workspace }}/foundry-umf-compendium.zip
+          asset_name: foundry-umf-compendium.zip
           asset_content_type: application/zip
