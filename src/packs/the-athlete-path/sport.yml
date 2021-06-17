@@ -1,0 +1,24 @@
+name: Sport
+permission:
+  default: 0
+type: move
+data:
+  name: ''
+  description: >-
+    <p>Choose two of these sports or discuss a new one with your GM.
+    When you defy danger and your sports experience would help,
+    take +1.</p>
+    <ul>
+    <li>parkour or free-running</li> 
+    <li>climbing, free and on harness</li>  
+    <li>swimming</li> 
+    <li>a team sport like hockey, soccer, or football</li>
+    </ul>
+  rollType: ''
+  rollMod: 0
+  requiresLevel: 1
+  requiresMove: ''
+  class: 'The Strong'
+  moveType: advanced
+flags: {}
+img: icons/svg/mystery-man.svg

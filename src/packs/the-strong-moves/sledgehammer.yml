@@ -1,0 +1,17 @@
+name: Sledgehammer
+permission:
+  default: 0
+type: move
+data:
+  name: ''
+  description: >-
+    <p>When you do damage where strength matters, add +1d4;
+    increase this to +2d4 at level 6.</p>    
+  rollType: ''
+  rollMod: 0
+  requiresLevel: 1
+  requiresMove: ''
+  class: 'The Strong'
+  moveType: advanced
+flags: {}
+img: icons/svg/mystery-man.svg

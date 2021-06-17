@@ -1,0 +1,33 @@
+name: Tactical Retreat
+permission:
+  default: 0
+type: move
+data:
+  name: ''
+  description: >-
+    <p>When you<strong> retreat from a threat that you’ve realized you cannot
+    defeat right now,</strong>, roll+STR.</p>
+  choices: >-
+    <ul>
+    
+    </ul>
+  rollType: STR
+  rollMod: 0
+  requiresLevel: 1
+  requiresMove: ''
+  class: 'The Strong'
+  moveType: advanced
+  moveResults:
+    failure:
+      value: ''
+    partial:
+      value: >-
+        <p>On a 10+, you escape and learn of a
+        weakness you can exploit later. On a 7-9, also suffer further harm
+        or lose something of value.</p>
+    success:
+      value: >-
+        <p>On a 10+, you escape and learn of a
+        weakness you can exploit later.</p>
+flags: {}
+img: icons/svg/mystery-man.svg

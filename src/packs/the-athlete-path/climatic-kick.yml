@@ -1,0 +1,19 @@
+name: Climatic Kick
+permission:
+  default: 0
+type: move
+data:
+  name: ''
+  description: >-
+    <p>When you’re engaged in a physical conflict or competition, you
+    may declare a hit as a miss and hold 2 Kick. You can spend 1 Kick
+    during this conflict to adjust a roll result upwards by one step.
+    When you use this move again, the new hold replaces the old.</p>
+  rollType: ''
+  rollMod: 0
+  requiresLevel: 1
+  requiresMove: ''
+  class: 'The Strong'
+  moveType: advanced
+flags: {}
+img: icons/svg/mystery-man.svg

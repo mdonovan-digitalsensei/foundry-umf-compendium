@@ -1,0 +1,18 @@
+name: Flex
+permission:
+  default: 0
+type: move
+data:
+  name: ''
+  description: >-
+    <p>Choose a Move you know and tell the GM that you now use STR
+    when rolling it. If the GM disagrees, mark XP and choose a
+    different Move.</p>    
+  rollType: ''
+  rollMod: 0
+  requiresLevel: 1
+  requiresMove: ''
+  class: 'The Strong'
+  moveType: advanced
+flags: {}
+img: icons/svg/mystery-man.svg

@@ -1,0 +1,21 @@
+name: Around the Block
+permission:
+  default: 0
+type: move
+data:
+  name: ''
+  description: >-
+    <p>Nobody gets this far without making friends and enemies. When
+    you remember something useful to the situation at hand that
+    someone once told you, choose who told you: a mentor, friend,
+    enemy, or ex-lover. Name them, then take +1 forward to act on it. If
+    the GM tells you it’s flawed, inaccurate, or flat-out wrong, mark XP
+    if you act on it, instead.</p>    
+  rollType: ''
+  rollMod: 0
+  requiresLevel: 1
+  requiresMove: ''
+  class: 'The Strong'
+  moveType: advanced
+flags: {}
+img: icons/svg/mystery-man.svg

@@ -1,0 +1,17 @@
+name: Relentless
+permission:
+  default: 0
+type: move
+data:
+  name: ''
+  description: >-
+    <p>When you successfully deal damage to an enemy, deal +1 damage,
+    cumulative, against that foe for the rest of the fight.</p>    
+  rollType: ''
+  rollMod: 0
+  requiresLevel: 6
+  requiresMove: ''
+  class: 'The Strong'
+  moveType: advanced
+flags: {}
+img: icons/svg/mystery-man.svg

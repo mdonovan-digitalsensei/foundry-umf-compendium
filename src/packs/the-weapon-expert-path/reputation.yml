@@ -1,0 +1,19 @@
+name: Reputation
+permission:
+  default: 0
+type: move
+data:
+  name: ''
+  description: >-
+    <p>You have a reputation in combat; choose honorable, merciful,
+    ruthless, relentless, or similar. When this reputation would help,
+    take +1. If you contravene this reputation and people find out,
+    swap this reputation for the opposite or ask the GM for one.</p>    
+  rollType: ''
+  rollMod: 0
+  requiresLevel: 1
+  requiresMove: ''
+  class: 'The Strong'
+  moveType: advanced
+flags: {}
+img: icons/svg/mystery-man.svg

@@ -1,0 +1,33 @@
+name: Honed
+permission:
+  default: 0
+type: move
+data:
+  name: ''
+  description: >-
+    <p>When you<strong>spend time caring for your bound weapon,</strong>, roll+WIS.</p>
+  choices: >-
+    <p>Spend Hone one-for-one
+    when you fight with your bound weapon to</p>
+    <ul>
+    <li>do an extra d6 damage or ignore armor </li>
+    <li>not be exposed on a 7+ roll, even if you opt for extra damage </li>
+    <li>double any bonus damage from Relentless, for one strike</li>    
+    </ul>
+  rollType: WIS
+  rollMod: 0
+  requiresLevel: 6
+  requiresMove: ''
+  class: 'The Strong'
+  moveType: advanced
+  moveResults:
+    failure:
+      value: ''
+    partial:
+      value: >-
+        <p>hold 1 hone/p>
+    success:
+      value: >-
+        <p>hold 3 hone</p>
+flags: {}
+img: icons/svg/mystery-man.svg

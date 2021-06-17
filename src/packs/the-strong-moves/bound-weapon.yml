@@ -1,0 +1,23 @@
+name: Bound Weapon
+permission:
+  default: 0
+type: move
+data:
+  name: ''
+  description: >-
+    <p>You know how to use an exotic melee weapon most people don’t,
+    and yours is special. Maybe it’s forged from part of your soul or
+    maybe it’s just really, really old. You start out with it, and, should it
+    ever be lost, you know how to replace it. Tell the GM what it is and
+    how you acquired it, and the GM will tell you if there will be any
+    complications to carrying it openly and, if it comes up, what kind of
+    effort it’ll take to replace it.</p>
+    <p>Use the Fighter’s signature weapon to build yours.</p>
+  rollType: ''
+  rollMod: 0
+  requiresLevel: 1
+  requiresMove: ''
+  class: 'The Strong'
+  moveType: advanced
+flags: {}
+img: icons/svg/mystery-man.svg

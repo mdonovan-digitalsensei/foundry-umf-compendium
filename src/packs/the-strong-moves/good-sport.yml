@@ -1,0 +1,33 @@
+name: Good Sport
+permission:
+  default: 0
+type: move
+data:
+  name: ''
+  description: >-
+    <p>When you<strong> engage someone in a contest of strength</strong>, roll
+    +STR.</p>
+  choices: >-
+    <ul>
+    
+    </ul>
+  rollType: STR
+  rollMod: 0
+  requiresLevel: 1
+  requiresMove: ''
+  class: 'The Strong'
+  moveType: advanced
+  moveResults:
+    failure:
+      value: ''
+    partial:
+      value: >-
+        <p>you win; take +1 ongoing to negotiate with them or anyone
+        impressed by the win, or to press your advantage. On a 7-9, you
+        break something you’d rather not have in the process.</p>
+    success:
+      value: >-
+        <p>you win; take +1 ongoing to negotiate with them or anyone
+        impressed by the win, or to press your advantage.</p>
+flags: {}
+img: icons/svg/mystery-man.svg

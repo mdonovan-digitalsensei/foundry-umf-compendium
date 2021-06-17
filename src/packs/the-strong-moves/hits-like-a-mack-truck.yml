@@ -1,0 +1,18 @@
+name: Hits Like A Mack Truck
+permission:
+  default: 0
+type: move
+data:
+  name: ''
+  description: >-
+    <p>If you can apply your strength to an attack, you can make it forceful,
+    but if you do, you’re always exposed to the enemy’s attack, even on
+    a 10+ (you still get bonus damage as if you’d chosen it, if so).</p>
+  rollType: ''
+  rollMod: 0
+  requiresLevel: 1
+  requiresMove: ''
+  class: 'The Strong'
+  moveType: advanced
+flags: {}
+img: icons/svg/mystery-man.svg

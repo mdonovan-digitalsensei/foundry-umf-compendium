@@ -1,0 +1,34 @@
+name: Hit Where it Hurts
+permission:
+  default: 0
+type: move
+data:
+  name: ''
+  description: >-
+    <p>When you<strong>take some time to study an object or structure</strong>, you
+    may ask the GM “where’s a weak spot I can apply strength and
+    what’ll happen if I do?”. If you follow through roll+STR.</p>
+  choices: >-
+    <ul>
+    <li>it doesn’t take a very long time </li>
+    <li>nothing of value you’d prefer not to be is damaged </li>
+    <li>it doesn’t make an inordinate amount of noise </li>
+    <li>you can fix the thing again without a lot of effort</li>
+    </ul>
+  rollType: STR
+  rollMod: 0
+  requiresLevel: 6
+  requiresMove: ''
+  class: 'The Strong'
+  moveType: advanced
+  moveResults:
+    failure:
+      value: ''
+    partial:
+      value: >-
+        <p>Choose two</p>
+    success:
+      value: >-
+        <p>Choose three.</p>
+flags: {}
+img: icons/svg/mystery-man.svg

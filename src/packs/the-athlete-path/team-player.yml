@@ -1,0 +1,24 @@
+name: Team Player
+permission:
+  default: 0
+type: move
+data:
+  name: ''
+  description: >-
+    <p>Choose any two Moves you know when you take this move. You can
+    share their benefits with your team, as long as you work together
+    and can justify how it works.</p>
+    <p>When you use one of your Team Moves, name yourself or another
+    member of the group the Team Leader. They make any rolls and
+    choose who takes any consequences.</p>
+    <p>When you pick your Moves, the GM will either accept your choice
+    or offer you a modification. If you can’t agree, you can’t take Team
+    Player right now.</p>
+  rollType: ''
+  rollMod: 0
+  requiresLevel: 6
+  requiresMove: ''
+  class: 'The Strong'
+  moveType: advanced
+flags: {}
+img: icons/svg/mystery-man.svg
