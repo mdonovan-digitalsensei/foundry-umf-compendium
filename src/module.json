@@ -11,5 +11,9 @@
             "path": "/packs/gear.db",
             "entity": "Item"
         }
-    ]
+    ],
+    "system": "pbta",
+    "url": "https://github.com/mdonovan-digitalsensei/foundry-umf-compendium",
+    "manifest": "https://raw.githubusercontent.com/mdonovan-digitalsensei/foundry-umf-compendium/main/src/module.json",
+    "download": "https://github.com/mdonovan-digitalsensei/foundry-umf-compendium/releases/latest/download/foundry-umf-compendium.zip"
 }
