@@ -1,0 +1,33 @@
+name: Gun Kata
+permission:
+  default: 0
+type: move
+data:
+  name: ''
+  description: >-
+    <p>When you<strong> defy danger using DEX while wielding a gun</strong>, in
+    addition to any other consequences, on a 10+, choose two. On a 7-
+    9, just one.</p>
+  choices: >-
+    <ul>
+    <li>Deal damage to any targets you can hit </li>
+    <li>Deal damage to one target you can hit </li>
+    <li>Dive behind cover or go into hiding, as plausible</li>
+    </ul>
+  rollType: DEX
+  rollMod: 0
+  requiresLevel: 6
+  requiresMove: ''
+  class: 'The Fast'
+  moveType: advanced
+  moveResults:
+    failure:
+      value: ''
+    partial:
+      value: >-
+        <p>choose one</p>
+    success:
+      value: >-
+        <p>choose two.</p>
+flags: {}
+img: icons/svg/mystery-man.svg

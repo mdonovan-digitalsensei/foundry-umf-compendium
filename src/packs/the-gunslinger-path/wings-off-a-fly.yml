@@ -1,0 +1,32 @@
+name: Wings Off a Fly
+permission:
+  default: 0
+type: move
+data:
+  name: ''
+  description: >-
+    <p>When you<strong> tale a few moments to carefully aim and then shoot
+    at a specific spot on an enemy in range</strong>, name your target and rolll
+    +DEX.</p>
+  choices: >-
+    <ul>
+   
+    </ul>
+  rollType: DEX
+  rollMod: 0
+  requiresLevel: 1
+  requiresMove: ''
+  class: 'The Fast'
+  moveType: advanced
+  moveResults:
+    failure:
+      value: ''
+    partial:
+      value: >-
+        <p>it’s only a temporary hinderance;
+        also choose one from the 7-9 options for Volley</p>
+    success:
+      value: >-
+        <p>You do damage and they suffer an appropriate injury.</p>
+flags: {}
+img: icons/svg/mystery-man.svg

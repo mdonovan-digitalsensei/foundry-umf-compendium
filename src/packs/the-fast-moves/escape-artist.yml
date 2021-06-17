@@ -1,0 +1,19 @@
+name: Escape Artist
+permission:
+  default: 0
+type: move
+data:
+  name: ''
+  description: >-
+    <p>You have a tendency to end up tied up and a lot of practice getting
+    out of it. Take +1 when you’re escaping, attempting to fit into or
+    through a space a little too small for you, or trying to talk someone
+    into setting you free.</p>
+  rollType: ''
+  rollMod: 0
+  requiresLevel: 1
+  requiresMove: ''
+  class: 'The Fast'
+  moveType: advanced
+flags: {}
+img: icons/svg/mystery-man.svg

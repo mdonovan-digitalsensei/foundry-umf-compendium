@@ -1,0 +1,19 @@
+name: Face in the Crowd
+permission:
+  default: 0
+type: move
+data:
+  name: ''
+  description: >-
+    <p>You have a knack for going unnoticed, whether it’s blending into
+    a crowd or moving quietly while taking advantage of terrain.
+    Unless you attack or otherwise draw attention to yourself, you go
+    unnoticed by NPCs if it’s at all plausible for you to.</p>
+  rollType: ''
+  rollMod: 0
+  requiresLevel: 1
+  requiresMove: ''
+  class: 'The Fast'
+  moveType: advanced
+flags: {}
+img: icons/svg/mystery-man.svg

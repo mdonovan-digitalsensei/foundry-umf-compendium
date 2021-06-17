@@ -1,0 +1,34 @@
+name: Sudden Strike
+permission:
+  default: 0
+type: move
+data:
+  name: ''
+  description: >-
+    <p>When you<strong> attack someone up close who doesn’t see it coming</strong>, roll
+    +DEX.</p>
+  choices: >-
+    <ul>
+    <li>Deal damage as usual.</li>
+    <li>You move away before they can retaliate</li>
+    <li>Ignore armour</li>
+    <li>inflict a temporarily crippling wound that prevents them from
+    raising an alarm or escaping</li>
+    </ul>
+  rollType: DEX
+  rollMod: 0
+  requiresLevel: 1
+  requiresMove: ''
+  class: 'The Fast'
+  moveType: advanced
+  moveResults:
+    failure:
+      value: ''
+    partial:
+      value: >-
+        <p>Choose two.</p>
+    success:
+      value: >-
+        <p>Choose three.</p>
+flags: {}
+img: icons/svg/mystery-man.svg

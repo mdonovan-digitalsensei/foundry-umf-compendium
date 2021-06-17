@@ -1,0 +1,16 @@
+name: Dodge and Parry
+permission:
+  default: 0
+type: move
+data:
+  name: ''
+  description: >-
+    <p>You can DEX instead of CON to Defend.</p>
+  rollType: ''
+  rollMod: 0
+  requiresLevel: 1
+  requiresMove: ''
+  class: 'The Fast'
+  moveType: advanced
+flags: {}
+img: icons/svg/mystery-man.svg

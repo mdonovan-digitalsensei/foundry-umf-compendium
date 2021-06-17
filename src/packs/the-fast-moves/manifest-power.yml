@@ -1,0 +1,35 @@
+name: Manifest Power
+permission:
+  default: 0
+type: move
+data:
+  name: ''
+  description: >-
+    <p>When you<strong> user extaordinary powers to do something consitent with your premise or established abilities</strong>, roll
+    +STAT.</p>
+  choices: >-
+    <ul>
+    <li>You attract unwanted notice.</li>
+    <li>You cause collateral damage or unintended injury.</li>
+    <li>you get hurt.</li>
+    <li>the outcome is worse than you hoped</li>
+    <li>You owe someone a debt.</li>
+    <li>You lose a resource.</li>
+    </ul>
+  rollType: ANY
+  rollMod: 0
+  requiresLevel: 1
+  requiresMove: ''
+  class: 'The Fast'
+  moveType: starting
+  moveResults:
+    failure:
+      value: ''
+    partial:
+      value: >-
+        <p>Choose one and the GM chooses one as well.</p>
+    success:
+      value: >-
+        <p>Choose one</p>
+flags: {}
+img: icons/svg/mystery-man.svg

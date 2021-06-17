@@ -10,6 +10,24 @@
             "label": "Gear",
             "path": "/packs/gear.db",
             "entity": "Item"
+        },
+        {
+            "name": "the-fast-moves",
+            "label": "The Fast Moves",
+            "path": "/packs/the-fast-moves.db",
+            "entity": "Item"
+        },
+        {
+            "name": "the-gunslinger-path",
+            "label": "The Gunslinger Path",
+            "path": "/packs/the-gunslinger-path.db",
+            "entity": "Item"
+        },
+        {
+            "name": "the-rogue-path",
+            "label": "The Rogue Path",
+            "path": "/packs/the-rogue-path.db",
+            "entity": "Item"
         }
     ],
     "system": "pbta",

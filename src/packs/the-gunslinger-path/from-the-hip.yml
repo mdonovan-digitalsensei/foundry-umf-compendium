@@ -1,0 +1,17 @@
+name: From the Hip
+permission:
+  default: 0
+type: move
+data:
+  name: ''
+  description: >-
+    <p>When you use Wings Off a Fly you no longer need to take a few
+    moments to aim carefully; just aiming carefully is sufficient.</p>
+  rollType: ''
+  rollMod: 0
+  requiresLevel: 6
+  requiresMove: ''
+  class: 'The Fast'
+  moveType: advanced
+flags: {}
+img: icons/svg/mystery-man.svg

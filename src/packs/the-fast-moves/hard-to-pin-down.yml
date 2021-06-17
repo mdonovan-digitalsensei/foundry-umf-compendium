@@ -1,0 +1,35 @@
+name: Hard to Pin Down(DEX)
+permission:
+  default: 0
+type: move
+data:
+  name: ''
+  description: >-
+    <p>Add “Where’s an opening for me to escape this situation? If none,
+    how can I make one?” to Discern Realities. Even on a miss, the GM
+    will answer these for you.
+    When you <strong>use an opening to escape a dangerous situation,</strong>
+    roll+DEX.</p>
+  choices: >-
+    <ul>
+    <li>You leave something behind, the GM says what.</li>
+    <li>you get hurt in the process</li>
+    <li>you owe someone a favor for your escape</li>
+    </ul>
+  rollType: DEX
+  rollMod: 0
+  requiresLevel: 1
+  requiresMove: ''
+  class: 'The Fast'
+  moveType: advanced
+  moveResults:
+    failure:
+      value: ''
+    partial:
+      value: >-
+        <p>Choose one</p>
+    success:
+      value: >-
+        <p>You're gone.</p>
+flags: {}
+img: icons/svg/mystery-man.svg

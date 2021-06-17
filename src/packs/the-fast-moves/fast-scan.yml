@@ -1,0 +1,19 @@
+name: Fast Scan
+permission:
+  default: 0
+type: move
+data:
+  name: ''
+  description: >-
+    <p>You can discern realities with a glance; you no longer have to
+    closely study a situation to trigger the move. If you use this, the
+    GM holds 1 they can spend to tell you how one of your impressions
+    was inaccurate or misleading.</p>
+  rollType: ''
+  rollMod: 0
+  requiresLevel: 1
+  requiresMove: ''
+  class: 'The Fast'
+  moveType: advanced
+flags: {}
+img: icons/svg/mystery-man.svg

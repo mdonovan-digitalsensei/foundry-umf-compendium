@@ -1,0 +1,19 @@
+name: On My Crew
+permission:
+  default: 0
+type: move
+data:
+  name: ''
+  description: >-
+    <p>When you spend some time training an ally, name one or more
+    Moves from this path you know and ask them to roll+DEX. On a
+    10+, they hold 1 plus your DEX Training and may spend it to use
+    one of those Moves as if they had it. On a 7-9, they hold just 1..</p>
+  rollType: ''
+  rollMod: 0
+  requiresLevel: 1
+  requiresMove: ''
+  class: 'The Fast'
+  moveType: advanced
+flags: {}
+img: icons/svg/mystery-man.svg

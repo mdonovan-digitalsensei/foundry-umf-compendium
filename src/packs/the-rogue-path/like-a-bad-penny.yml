@@ -1,0 +1,31 @@
+name: Like a Bad Penny
+permission:
+  default: 0
+type: move
+data:
+  name: ''
+  description: >-
+    <p>When you<strong> fade into the background</strong>, roll
+    +DEX.</p>
+  choices: >-
+    <ul>
+    <li>to be somewhere else you plausibly could be when you could be.</li>
+    <li>to not be in trouble or a bad spot when you do</li>    
+    </ul>
+  rollType: DEX
+  rollMod: 0
+  requiresLevel: 6
+  requiresMove: ''
+  class: 'The Fast'
+  moveType: advanced
+  moveResults:
+    failure:
+      value: ''
+    partial:
+      value: >-
+        <p>hold 1 sneak.</p>
+    success:
+      value: >-
+        <p>hold 2 sneak.</p>
+flags: {}
+img: icons/svg/mystery-man.svg
