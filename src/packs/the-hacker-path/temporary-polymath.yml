@@ -1,0 +1,19 @@
+name: Temporary Polymath
+permission:
+  default: 0
+type: move
+data:
+  name: ''
+  description: >-
+    <p>Name three narrow subjects, like Ancient Chinese Art, Aircraft
+    Physics, or Slavic Folklore; you’ve read up on them. When secondhand
+    or theoretical knowledge would come in handy, take +1.
+    Replace a topic by binging on a new one.</p> 
+  rollType: ''
+  rollMod: 0
+  requiresLevel: 1
+  requiresMove: ''
+  class: 'The Genius'
+  moveType: advanced
+flags: {}
+img: icons/svg/mystery-man.svg

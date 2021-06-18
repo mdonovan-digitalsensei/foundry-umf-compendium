@@ -1,0 +1,35 @@
+name: Hands On Experience
+permission:
+  default: 0
+type: move
+data:
+  name: ''
+  description: >-
+    <p>When you<strong> take something supernatural apart with an eye to
+    figuring it out</strong>, roll+INT.</p>
+  choices: >-
+    <ul>
+    <li>it wasn’t as dead as you thought </li>
+    <li>you’re exposed to something unpleasant</li>
+    </ul>
+  rollType: INT
+  rollMod: 0
+  requiresLevel: 1
+  requiresMove: ''
+  class: 'The Genius'
+  moveType: starting
+  moveResults:
+    failure:
+      value: ''
+    partial:
+      value: >-
+        <p>you get a good idea of the
+        strengths and weaknesses it possesses that can be determined in
+        this fashion. Also choose one</p>
+    success:
+      value: >-
+        <p>you get a good idea of the
+        strengths and weaknesses it possesses that can be determined in
+        this fashion.</p>
+flags: {}
+img: icons/svg/mystery-man.svg

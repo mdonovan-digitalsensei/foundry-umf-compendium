@@ -1,0 +1,31 @@
+name: Reprogram It
+permission:
+  default: 0
+type: move
+data:
+  name: ''
+  description: >-
+    <p>When you<strong> reveal how you reprogrammed a computer to serve
+    your immediate purpose</strong>, explain how you gained access and
+    name one task, of seven words or less, then roll+INT.</p>
+  choices: >-
+    <ul>
+    </ul>
+  rollType: INT
+  rollMod: 0
+  requiresLevel: 1
+  requiresMove: ''
+  class: 'The Genius'
+  moveType: starting
+  moveResults:
+    failure:
+      value: ''
+    partial:
+      value: >-
+        <p>10+, it’s done, exactly as you intended. You left traces behind; the
+        GM will tell you who suffered as a result.</p>
+    success:
+      value: >-
+        <p>10+, it’s done, exactly as you intended.</p>
+flags: {}
+img: icons/svg/mystery-man.svg

@@ -1,0 +1,18 @@
+name: Renowned Expert
+permission:
+  default: 0
+type: move
+data:
+  name: ''
+  description: >-
+    <p>You can dispense with time or tools when synthesizing, taking
+    something apart, or putting it together; if you are without both,
+    choose an option from Manifest on any result but a 10+.</p>
+  rollType: ''
+  rollMod: 0
+  requiresLevel: 6
+  requiresMove: ''
+  class: 'The Genius'
+  moveType: advanced
+flags: {}
+img: icons/svg/mystery-man.svg

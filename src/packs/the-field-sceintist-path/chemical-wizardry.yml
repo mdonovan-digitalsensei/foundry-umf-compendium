@@ -1,0 +1,32 @@
+name: Chemical Wizardry
+permission:
+  default: 0
+type: move
+data:
+  name: ''
+  description: >-
+    <p>When you<strong> closely study a substance or its effects, and you have
+    tools and time</strong>, tell the GM what antidote, toxin, or cure you’re
+    trying to create and roll+INT.</p>
+  choices: >-
+    <ul>
+    <li>it’ll have side effects or will only work on any given creature once </li>
+    <li>it can’t be mass-produced</li>
+    </ul>
+  rollType: INT
+  rollMod: 0
+  requiresLevel: 1
+  requiresMove: ''
+  class: 'The Genius'
+  moveType: starting
+  moveResults:
+    failure:
+      value: ''
+    partial:
+      value: >-
+        <p>You create enough for 1 person also choose one</p>
+    success:
+      value: >-
+        <p>You create enough for 1 person</p>
+flags: {}
+img: icons/svg/mystery-man.svg

@@ -1,0 +1,23 @@
+name: Field Work
+permission:
+  default: 0
+type: move
+data:
+  name: ''
+  description: >-
+    <p>You’ve been on at least a few expeditions. When you reflect on
+    your past experiences that were similar to the one you currently
+    face, pick one. </p> 
+    <ul>
+    <li>it was dangerous; take +1 forward to act on the experience </li>
+    <li>it was embarrassing; if you share it, everyone else takes +1 forward for morale </li>
+    <li>you’ve never been in a situation like this; mark XP if you freeze up, freak out, or panic</li>
+    </ul>
+  rollType: ''
+  rollMod: 0
+  requiresLevel: 1
+  requiresMove: ''
+  class: 'The Genius'
+  moveType: advanced
+flags: {}
+img: icons/svg/mystery-man.svg

@@ -1,0 +1,22 @@
+name: Tricked Out Lab
+permission:
+  default: 0
+type: move
+data:
+  name: ''
+  description: >-
+    <p>You have a lab or base where you can work on your interests in
+    relative peace and quiet. Pick two:</p> 
+    <ul>
+    <li>a research library with two areas of focus; +1 to research them</li> 
+    <li>a huge pile of junk; you can always find a spare part that’ll work </li>
+    <li>a search engine you’ve programmed yourself; it’s not AI but it’s close. Take +1 when you search the internet for information.</li>
+    </ul>
+  rollType: ''
+  rollMod: 0
+  requiresLevel: 1
+  requiresMove: ''
+  class: 'The Genius'
+  moveType: advanced
+flags: {}
+img: icons/svg/mystery-man.svg

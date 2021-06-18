@@ -1,0 +1,25 @@
+name: Data Spider
+permission:
+  default: 0
+type: move
+data:
+  name: ''
+  description: >-
+    <p>You have a program that monitors the internet for the answer to a
+    specific question that can be found or pieced together from
+    available data, like “where are the vampires smuggling heroin into
+    the city” or “is anyone showing undue interest in Egyptian
+    artifacts”.
+    When you take a few hours to set up a query, say how you receive
+    notices; the next time two dice match, on any roll, by any player,
+    you’ll get an alert with the information, though it might not be as
+    complete as it could be. Choose if your spider keeps running on the
+    same query or not.</p> 
+  rollType: ''
+  rollMod: 0
+  requiresLevel: 1
+  requiresMove: ''
+  class: 'The Genius'
+  moveType: advanced
+flags: {}
+img: icons/svg/mystery-man.svg

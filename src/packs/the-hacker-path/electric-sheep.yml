@@ -1,0 +1,21 @@
+name: Electric Sheep
+permission:
+  default: 0
+type: move
+data:
+  name: ''
+  description: >-
+    <p>Your search engine from Tricked Out Lab is now actual artificial
+    intelligence, or at least close enough most people can’t tell the
+    difference. Describe how you communicate with it and its
+    personality, then name three Moves it can help you with. When it
+    does, you can treat the result as one step higher. When you do, the
+    GM may make a Move related to your AI.</p> 
+  rollType: ''
+  rollMod: 0
+  requiresLevel: 6
+  requiresMove: ''
+  class: 'The Genius'
+  moveType: advanced
+flags: {}
+img: icons/svg/mystery-man.svg

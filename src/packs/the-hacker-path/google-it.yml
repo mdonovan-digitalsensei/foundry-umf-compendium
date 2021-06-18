@@ -1,0 +1,18 @@
+name: Google It
+permission:
+  default: 0
+type: move
+data:
+  name: ''
+  description: >-
+    <p>When you do an in-depth search of the internet on a specific
+    topic, roll+INT. On a 10+, you find a useful piece of information
+    and make a useful contact. On a 7-9, pick one.</p> 
+  rollType: ''
+  rollMod: 0
+  requiresLevel: 1
+  requiresMove: ''
+  class: 'The Genius'
+  moveType: advanced
+flags: {}
+img: icons/svg/mystery-man.svg

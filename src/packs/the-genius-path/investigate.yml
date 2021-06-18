@@ -1,0 +1,30 @@
+name: Investigate
+permission:
+  default: 0
+type: move
+data:
+  name: ''
+  description: >-
+    <p>When you<strong> investigate a mystery using logic or deduction</strong>, roll
+    +INT.</p>
+  choices: >-
+    <ul>
+    
+    </ul>
+  rollType: INT
+  rollMod: 0
+  requiresLevel: 1
+  requiresMove: ''
+  class: 'The Genius'
+  moveType: starting
+  moveResults:
+    failure:
+      value: ''
+    partial:
+      value: >-
+        <p>Learn a vital clue but Attract unwanted attention.</p>
+    success:
+      value: >-
+        <p>Learn a vital clue</p>
+flags: {}
+img: icons/svg/mystery-man.svg

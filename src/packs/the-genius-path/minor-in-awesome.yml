@@ -1,0 +1,18 @@
+name: Minor in Awesome
+permission:
+  default: 0
+type: move
+data:
+  name: ''
+  description: >-
+    <p>When you dredge up immediately relevant knowledge from a
+    book you’ve surely read or a class you must have taken, ask the
+    GM for a Talent. This Talent is yours until you use this move again.</p> 
+  rollType: ''
+  rollMod: 0
+  requiresLevel: 1
+  requiresMove: ''
+  class: 'The Genius'
+  moveType: advanced
+flags: {}
+img: icons/svg/mystery-man.svg

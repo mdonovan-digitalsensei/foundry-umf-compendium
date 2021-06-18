@@ -1,0 +1,20 @@
+name: Renowned Expert
+permission:
+  default: 0
+type: move
+data:
+  name: ''
+  description: >-
+    <p>When you roll to find someone who is a recognized expert in an
+    academic field, you use INT and treat a miss as a partial.
+    When you offer your services as a renowned expert in your field,
+    take +1 ongoing to demonstrate your knowledge for the target if
+    they accept; mark XP if they don’t.</p>
+  rollType: ''
+  rollMod: 0
+  requiresLevel: 6
+  requiresMove: ''
+  class: 'The Genius'
+  moveType: advanced
+flags: {}
+img: icons/svg/mystery-man.svg
