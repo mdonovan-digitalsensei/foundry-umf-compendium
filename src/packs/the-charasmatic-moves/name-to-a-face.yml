@@ -1,0 +1,30 @@
+name: Name to a Face
+permission:
+  default: 0
+type: move
+data:
+  name: ''
+  description: >-
+    <p>When you<strong> see someone’s face for the first time,</strong>, roll+WIS.</p>
+  choices: >-
+    <ul>
+    </ul>
+  rollType: WIS
+  rollMod: 0
+  requiresLevel: 1
+  requiresMove: ''
+  class: 'The Charismatic'
+  moveType: starting
+  moveResults:
+    failure:
+      value: ''
+    partial:
+      value: >-
+        <p>the GM will tell you who they appear to be and what their reputation is</p>
+    success:
+      value: >-
+        <p>you know something they’ve done they
+        wouldn’t want everyone to know. Tell the GM how you discovered
+        this and if you think they’ll remember you</p>
+flags: {}
+img: icons/svg/mystery-man.svg

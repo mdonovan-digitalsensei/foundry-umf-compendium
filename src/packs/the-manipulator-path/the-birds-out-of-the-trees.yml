@@ -1,0 +1,22 @@
+name: The Birds Out of the Trees
+permission:
+  default: 0
+type: move
+data:
+  name: ''
+  description: >-
+    <p>When you use fast-talk, bluffing, or cajoling to get your way, on
+    any roll result you may choose one: </p>
+    <ul>
+    <li>someone present's regard or feelings are changed</li>
+    <li>you learn a secret or gain an advantage against the target</li> 
+    <li>an opportunity appears or disappears</li>
+    </ul>
+  rollType: ''
+  rollMod: 0
+  requiresLevel: 1
+  requiresMove: ''
+  class: 'The Charismatic'
+  moveType: advanced
+flags: {}
+img: icons/svg/mystery-man.svg

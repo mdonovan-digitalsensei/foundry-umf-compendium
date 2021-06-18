@@ -1,0 +1,35 @@
+name: Cold Read
+permission:
+  default: 0
+type: move
+data:
+  name: ''
+  description: >-
+    <p>You can convince people that you have special insight or psychic
+    powers through psychological tricks. When you <strong>exploit someone
+    psychologically or emotionally</strong>, roll+CHA.</p>
+  choices: >-
+    <ul>
+    <li>they’ll catch on before too long or someone else catches on now </li>
+    <li>they act immediately and rashly, thinking you want them to </li>
+    <li>they demand proof or assurances before they believe you</li>
+    </ul>
+  rollType: CHA
+  rollMod: 0
+  requiresLevel: 1
+  requiresMove: ''
+  class: 'The Charismatic'
+  moveType: starting
+  moveResults:
+    failure:
+      value: ''
+    partial:
+      value: >-
+        <p>they believe what you’ve told or shown them, and trust you until you prove
+        false. Also choose one:.</p>
+    success:
+      value: >-
+        <p>they believe what you’ve told or shown them, and trust you until you prove
+        false</p>
+flags: {}
+img: icons/svg/mystery-man.svg

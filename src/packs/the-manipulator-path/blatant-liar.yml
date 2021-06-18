@@ -1,0 +1,18 @@
+name: Blatant Liar
+permission:
+  default: 0
+type: move
+data:
+  name: ''
+  description: >-
+    <p>When you lie boldly to someone’s face, you take a +1 forward to
+    negotiate with them as long as you maintain the lie. On a 10+,
+    they won’t question it unless it becomes an obvious lie..</p> 
+  rollType: ''
+  rollMod: 0
+  requiresLevel: 1
+  requiresMove: ''
+  class: 'The Charismatic'
+  moveType: advanced
+flags: {}
+img: icons/svg/mystery-man.svg

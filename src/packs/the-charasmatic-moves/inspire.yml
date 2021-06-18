@@ -1,0 +1,32 @@
+name: Inspire
+permission:
+  default: 0
+type: move
+data:
+  name: ''
+  description: >-
+    <p>When you<strong> do or say something inspiring in front of your allies</strong>, roll+CHA.</p>
+  choices: >-
+    <ul>
+    </ul>
+  rollType: WIS
+  rollMod: 0
+  requiresLevel: 1
+  requiresMove: ''
+  class: 'The Charismatic'
+  moveType: starting
+  moveResults:
+    failure:
+      value: ''
+    partial:
+      value: >-
+        <p>take 1 Inspiration to give to one of those
+        present, who can spend it to add +1 to a roll by declaring how you
+        inspired them.</p>
+    success:
+      value: >-
+        <p>take+ 2 hold to divide as you see fit. Inspiration to give to one of those
+        present, who can spend it to add +1 to a roll by declaring how you
+        inspired them.</p>
+flags: {}
+img: icons/svg/mystery-man.svg

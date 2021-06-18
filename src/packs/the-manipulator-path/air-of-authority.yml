@@ -1,0 +1,20 @@
+name: Air of Authority
+permission:
+  default: 0
+type: move
+data:
+  name: ''
+  description: >-
+    <p>You may or may not have the authority to bargain for a million
+    dollars in small, unmarked bills, to perform heart surgery, or to
+    teach a class on physics, but if you confidently state you do, most
+    people will believe you. If they’re suspicious of your claims, take +1
+    ongoing to bluff about what you can and cannot do...</p> 
+  rollType: ''
+  rollMod: 0
+  requiresLevel: 1
+  requiresMove: ''
+  class: 'The Charismatic'
+  moveType: advanced
+flags: {}
+img: icons/svg/mystery-man.svg

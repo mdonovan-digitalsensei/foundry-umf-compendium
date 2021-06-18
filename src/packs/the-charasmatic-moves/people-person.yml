@@ -1,0 +1,17 @@
+name: People Person
+permission:
+  default: 0
+type: move
+data:
+  name: ''
+  description: >-
+    <p>Add “when you use your words when action would be easier and
+    maybe safer” as a new trigger for Smokin’ Hot..</p> 
+  rollType: ''
+  rollMod: 0
+  requiresLevel: 1
+  requiresMove: ''
+  class: 'The Charismatic'
+  moveType: advanced
+flags: {}
+img: icons/svg/mystery-man.svg

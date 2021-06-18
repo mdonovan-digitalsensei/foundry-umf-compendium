@@ -1,0 +1,17 @@
+name: Magnificient Orator
+permission:
+  default: 0
+type: move
+data:
+  name: ''
+  description: >-
+    <p>When you trigger Inspire, you gain +1 hold, even on a miss, and the
+    bonus from spending Inspiration increases to +2.</p> 
+  rollType: ''
+  rollMod: 0
+  requiresLevel: 1
+  requiresMove: ''
+  class: 'The Charismatic'
+  moveType: advanced
+flags: {}
+img: icons/svg/mystery-man.svg

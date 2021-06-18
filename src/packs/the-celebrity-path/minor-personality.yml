@@ -1,0 +1,27 @@
+name: Minor Personality
+permission:
+  default: 0
+type: move
+data:
+  name: ''
+  description: >-
+    <p>You’re famous in certain circles for something. Tell the GM what it
+    is and what those circles are, like “youtube daredevil” or “friend of
+    a reality tv star” or “local news anchor”.</p> 
+    <p><strong>When you attempt to live up to your image,</strong> choose one: </p>
+    <ul>
+    <li>you do it flawlessly; nobody watching this could believe you are
+    anything but what you seem </li>
+    <li>you add a new aspect, skill, or degree to your image that wasn’t
+    there before </li>
+    <li>you do something dangerous, foolish, or embarrassing to play to
+    your image; whatever else happens, mark XP</li>
+    </ul>
+  rollType: ''
+  rollMod: 0
+  requiresLevel: 1
+  requiresMove: ''
+  class: 'The Charismatic'
+  moveType: advanced
+flags: {}
+img: icons/svg/mystery-man.svg

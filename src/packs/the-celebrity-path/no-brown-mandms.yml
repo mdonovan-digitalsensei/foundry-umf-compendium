@@ -1,0 +1,35 @@
+name: No Brown M and Ms
+permission:
+  default: 0
+type: move
+data:
+  name: ''
+  description: >-
+    <p>When you<strong> demand privacy or privilege based on your fame or infamy,</strong>, roll+CHA.</p>
+  choices: >-
+    <ul>
+    <li>someone who you’d really rather not see right now </li>
+    <li>someone who actually has authority but is unsure of you </li>
+    <li>someone who is reaching for their phone</li>
+    </ul>
+  rollType: CHA
+  rollMod: 0
+  requiresLevel: 1
+  requiresMove: ''
+  class: 'The Charismatic'
+  moveType: starting
+  moveResults:
+    failure:
+      value: ''
+    partial:
+      value: >-
+        <p>people are mildly annoyed,
+        impressed, afraid, or astonished, but everyone accommodates
+        you. Almost everyone does; choose who doesn’t</p>
+    success:
+      value: >-
+        <p>people are mildly annoyed,
+        impressed, afraid, or astonished, but everyone accommodates
+        you.</p>
+flags: {}
+img: icons/svg/mystery-man.svg

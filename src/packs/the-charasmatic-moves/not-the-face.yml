@@ -1,0 +1,19 @@
+name: Not the Face
+permission:
+  default: 0
+type: move
+data:
+  name: ''
+  description: >-
+    <p>You’re skilled at taking hits where you want to. When the GM
+    declares that you’ll take a specific injury to a body part, tell them
+    how you manage to take it in different location of your choosing.
+    If they veto this change, mark XP.</p> 
+  rollType: ''
+  rollMod: 0
+  requiresLevel: 1
+  requiresMove: ''
+  class: 'The Charismatic'
+  moveType: advanced
+flags: {}
+img: icons/svg/mystery-man.svg
