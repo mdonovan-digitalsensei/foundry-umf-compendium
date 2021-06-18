@@ -1,0 +1,20 @@
+name: From the Neighborhood
+permission:
+  default: 0
+type: move
+data:
+  name: ''
+  description: >-
+    <p>You might have made it good, or just out, but you’re still from
+    around here. Choose a mark of the community, like an accent,
+    idiom, or token style of dress; you can turn it on and off. You take +1
+    ongoing to deal with community members who recognize you,
+    and they’ll open up to you in ways they wouldn’t to an outsider.</p> 
+  rollType: ''
+  rollMod: 0
+  requiresLevel: 1
+  requiresMove: ''
+  class: 'The Dedicated'
+  moveType: advanced
+flags: {}
+img: icons/svg/mystery-man.svg

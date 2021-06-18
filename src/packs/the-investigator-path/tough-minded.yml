@@ -1,0 +1,33 @@
+name: Tough Minded
+permission:
+  default: 0
+type: move
+data:
+  name: ''
+  description: >-
+    <p>You’ve seen it all before, or just about. When you <strong>are affected by
+    horror, fear, or mental compulsion,</strong> roll+WIS. On a 10+, you shake
+    it off. On a 7-9, also choose one.</p>
+  choices: >-
+    <ul>
+    <li>you act under the charm, but catch yourself quickly </li>
+    <li>it drives you to your knees or leaves you off balance </li>
+    <li>the enemy leaves a hook in you</li>
+    </ul>
+  rollType: WIS
+  rollMod: 0
+  requiresLevel: 1
+  requiresMove: ''
+  class: 'The Dedicated'
+  moveType: advanced
+  moveResults:
+    failure:
+      value: ''        
+    partial:
+      value: >-
+        <p>you shake it off. Also choose one</p>
+    success:
+      value: >-
+        <p> you shake it off</p>
+flags: {}
+img: icons/svg/mystery-man.svg

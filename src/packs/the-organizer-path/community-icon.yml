@@ -1,0 +1,25 @@
+name: Community Icon
+permission:
+  default: 0
+type: move
+data:
+  name: ''
+  description: >-
+    <p>You are a pillar of your community, well-known and respected.
+    People come to you for advice and to settle conflicts, and will
+    generally abide by your decisions. Choose two.</p>
+    <ul>
+    <li>you may have a second non-conflicting goal from For a Cause</li> 
+    <li>you each hold 2 when you use Role Model</li> 
+    <li>choose another social group for the purposes of Community Member.</li> 
+    </ul>
+    <p>If you have From the Neighborhood, choose marks for each
+    of your new groups; you take +2 instead of +1 when using a mark.</p> 
+  rollType: ''
+  rollMod: 0
+  requiresLevel: 1
+  requiresMove: ''
+  class: 'The Dedicated'
+  moveType: advanced
+flags: {}
+img: icons/svg/mystery-man.svg

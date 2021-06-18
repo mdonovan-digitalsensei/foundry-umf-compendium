@@ -1,0 +1,18 @@
+name: Mostly Harmless
+permission:
+  default: 0
+type: move
+data:
+  name: ''
+  description: >-
+    <p>You are often underestimated or discounted as a threat, even by
+    those who should know better. When you strike at or react to
+    someone who has underestimated you, take +1 forward.</p> 
+  rollType: ''
+  rollMod: 0
+  requiresLevel: 1
+  requiresMove: ''
+  class: 'The Dedicated'
+  moveType: advanced
+flags: {}
+img: icons/svg/mystery-man.svg

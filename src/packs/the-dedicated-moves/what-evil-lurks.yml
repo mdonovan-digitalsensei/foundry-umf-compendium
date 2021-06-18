@@ -1,0 +1,19 @@
+name: What Evil Lurks
+permission:
+  default: 0
+type: move
+data:
+  name: ''
+  description: >-
+    <p>You know people, how they think, how they lie to others and to
+    themselves, and why. When you use discern to study a person or a
+    group of people, add “what’s the loudest emotional subtext here?”
+    and “what do you want out of this situation?” to the list.</p> 
+  rollType: ''
+  rollMod: 0
+  requiresLevel: 1
+  requiresMove: ''
+  class: 'The Dedicated'
+  moveType: advanced
+flags: {}
+img: icons/svg/mystery-man.svg

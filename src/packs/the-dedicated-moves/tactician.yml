@@ -1,0 +1,17 @@
+name: Tactician
+permission:
+  default: 0
+type: move
+data:
+  name: ''
+  description: >-
+    <p>When you can use terrain or environmental conditions to your
+    benefit, you gain +1 to attack or defend.</p> 
+  rollType: ''
+  rollMod: 0
+  requiresLevel: 1
+  requiresMove: ''
+  class: 'The Dedicated'
+  moveType: advanced
+flags: {}
+img: icons/svg/mystery-man.svg

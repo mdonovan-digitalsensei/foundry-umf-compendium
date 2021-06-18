@@ -1,0 +1,34 @@
+name: A Friend to All
+permission:
+  default: 0
+type: move
+data:
+  name: ''
+  description: >-
+    <p>You have a group of people who call you friend and give you
+    advice, aid, or information. At the start of a session, roll+WIS.</p>
+    <p>Spend 1 Friendship to call in a favor from the group that won’t cost
+    them much. Spend 3 to get them to inconvenience themselves
+    greatly or put themselves in danger</p>
+  choices: >-
+    <ul>
+    
+    </ul>
+  rollType: WIS
+  rollMod: 0
+  requiresLevel: 1
+  requiresMove: ''
+  class: 'The Dedicated'
+  moveType: advanced
+  moveResults:
+    failure:
+      value: 
+        <p>hold 1 Friendship; the GM also holds 1 they can spend to have the group complicate your life.</p>
+    partial:
+      value: >-
+        <p>hold 1 Friendship</p>
+    success:
+      value: >-
+        <p>hold 3 Friendship</p>
+flags: {}
+img: icons/svg/mystery-man.svg

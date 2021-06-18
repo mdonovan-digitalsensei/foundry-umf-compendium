@@ -1,0 +1,20 @@
+name: For a Cause
+permission:
+  default: 0
+type: move
+data:
+  name: ''
+  description: >-
+    <p>You have a community cause or goal you’re particularly passionate
+    about, like “restore the old library” or “settle this turf war”. Take +1
+    ongoing when you pursue it if determination helps. You can
+    change this goal with a few hours of soul searching or by
+    completing it.</p> 
+  rollType: ''
+  rollMod: 0
+  requiresLevel: 1
+  requiresMove: ''
+  class: 'The Dedicated'
+  moveType: advanced
+flags: {}
+img: icons/svg/mystery-man.svg

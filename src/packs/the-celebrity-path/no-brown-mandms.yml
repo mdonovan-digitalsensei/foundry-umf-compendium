@@ -17,7 +17,7 @@ data:
   requiresLevel: 1
   requiresMove: ''
   class: 'The Charismatic'
-  moveType: starting
+  moveType: advanced
   moveResults:
     failure:
       value: ''

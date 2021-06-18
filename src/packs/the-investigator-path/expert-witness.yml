@@ -1,0 +1,23 @@
+name: Expert Witness
+permission:
+  default: 0
+type: move
+data:
+  name: ''
+  description: >-
+    <p>You always know someone who can help you with advice, aid, or
+    information. When you <strong>go looking for an expert who can help
+    you</strong>, pick one after rolling to Find Someone:</p> 
+    <ul>
+    <li>they owe you a favor and will honor it </li>
+    <li>you have or know something they will be very interested in </li>
+    <li>the roll result counts as a 10+</li>
+    </ul>
+  rollType: ''
+  rollMod: 0
+  requiresLevel: 1
+  requiresMove: ''
+  class: 'The Dedicated'
+  moveType: advanced
+flags: {}
+img: icons/svg/mystery-man.svg
