@@ -1,0 +1,43 @@
+name: The Genius
+permission:
+  default: 0
+type: class
+data:
+  name: ''
+  description: >-
+    <p>If the Dedicated figures things out by knowing how people
+    work, the Genius does it by analyzing the situation with logic
+    and deduction.</p>
+    <p>The field Scientist is about working in the field and leveraging
+    their experiences as a scientist. The Hacker knows anything
+    the internet does, as long as they have time to look it up.</p>
+    <p>The Genius benefits from Fast and Tough moves, for fighting
+    and staying power, or from Dedicated and Charismatic to
+    convince people of their genius.</p>
+  races:
+    '0':
+      label: On Staff
+      description: 'Start with Ivory Tower'
+    '1':
+      label: Criminologist
+      description: 'Choose Dedicated Move'
+    '2':
+      label: Rough Childhood
+      description: 'Choose a Tough Move'
+    '3':
+      label: Create your own
+      description: 'Justify a choice of move to the GM'      
+  alignments:
+    '0':
+      label: Mortal
+      description: You have a drive related to the mortal realm.
+    '1':
+      label: Other
+      description: You have a drive related to the shadow world.
+  equipment: ''
+  hp: 6
+  load: 9
+  damage: d6
+flags: {}
+img: systems/dungeonworld/assets/icons/skills/yellow_27.webp
+effects: []

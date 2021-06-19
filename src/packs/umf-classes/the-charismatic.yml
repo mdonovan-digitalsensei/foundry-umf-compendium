@@ -1,0 +1,43 @@
+name: The Charismatic
+permission:
+  default: 0
+type: class
+data:
+  name: ''
+  description: >-
+    <p>Attractive. Magnetic. Vivacious. The Charismatic knows
+    people they can talk into making their lives easier, or talk into
+    getting them what they want, either by calling in old debts or
+    just by being charming.</p>
+    <p>The Manipulator pushes buttons and manipulates to get their
+    way; the Celebrity does it through being a literal celebrity.</p>
+    <p>Consider dipping into Dedicated for detecting skills and
+    empathy, or into Fast to get out of the trouble your mouth will
+    talk you into.</p>
+  races:
+    '0':
+      label: Child Star
+      description: 'Start with Minor Personality'
+    '1':
+      label: Crime Reporter
+      description: 'Choose Dedicated Move'
+    '2':
+      label: Grifter
+      description: 'Choose a Fast Move'    
+    '3':
+      label: Create your own
+      description: 'Justify a choice of move to the GM'
+  alignments:
+    '0':
+      label: Mortal
+      description: You have a drive related to the mortal realm.
+    '1':
+      label: Other
+      description: You have a drive related to the shadow world.
+  equipment: ''
+  hp: 6
+  load: 9
+  damage: d6
+flags: {}
+img: systems/dungeonworld/assets/icons/skills/yellow_27.webp
+effects: []

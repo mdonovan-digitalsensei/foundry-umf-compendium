@@ -1,0 +1,43 @@
+name: The Fast
+permission:
+  default: 0
+type: class
+data:
+  name: ''
+  description: >-
+    <p>The Fast is all about being fast, whether that’s sizing up a
+    situation before it gets dangerous and then getting out of it
+    unscathed or shooting first. The Rogue is the classic thief,
+    with moves to stay unnoticed in a crowd and to sneak into
+    places they shouldn’t be. The Gunslinger is preternaturally
+    good with a ranged weapon.</p>
+    <p>You’ll find Tough’s ability to size up the opposition and take a
+    beating useful, but consider Dedicated’s Organizer or
+    Charismatic’s Celebrity to expand your range.</p>
+  races:
+    '0':
+      label: Petty Criminal
+      description: 'Start with Hard to Pin down'
+    '1':
+      label: Agent
+      description: 'Choose Dedicated Move'
+    '2':
+      label: Athlete
+      description: 'Choose a Strong Move'
+    '3':
+      label: Create your own
+      description: 'Justify a choice of move to the GM'      
+  alignments:
+    '0':
+      label: Mortal
+      description: You have a drive related to the mortal realm.
+    '1':
+      label: Other
+      description: You have a drive related to the shadow world.
+  equipment: ''
+  hp: 6
+  load: 9
+  damage: d6
+flags: {}
+img: systems/dungeonworld/assets/icons/skills/yellow_27.webp
+effects: []

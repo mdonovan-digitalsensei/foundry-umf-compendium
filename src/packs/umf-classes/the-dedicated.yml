@@ -1,0 +1,45 @@
+name: The Dedicated
+permission:
+  default: 0
+type: class
+data:
+  name: ''
+  description: >-
+    <p>The Dedicated is all about knowing people in an authentic
+    way, unlike the Charismatic who is more about manipulation.
+    They’ve been around the block a few times, are keenly
+    empathetic, or are very well-trained.</p>
+    <p>The Investigator is the quintessential detective, the guy in the
+    rumpled suit or in the starched uniform. The Organizer is a
+    neighborhood fixture who knows everyone, a streetwise
+    paladin for the dark streets.</p>
+    <p>Both paths benefit from dips into Tough, to keep them alive,
+    and from Charismatic, to get people moving the way they
+    want them to.</p>
+  races:
+    '0':
+      label: Law Enforcement or Private Eye
+      description: 'Start with Investigative Specialist'
+    '1':
+      label: Mercenary
+      description: 'Choose a strong move'
+    '2':
+      label: Boxer
+      description: 'Choose a Tough Move'      
+    '3':
+      label: Create your own
+      description: 'Justify a choice of move to the GM'
+  alignments:
+    '0':
+      label: Mortal
+      description: You have a drive related to the mortal realm.
+    '1':
+      label: Other
+      description: You have a drive related to the shadow world.
+  equipment: ''
+  hp: 8
+  load: 10
+  damage: d6
+flags: {}
+img: systems/dungeonworld/assets/icons/skills/yellow_27.webp
+effects: []

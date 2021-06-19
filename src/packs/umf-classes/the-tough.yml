@@ -1,0 +1,41 @@
+name: The Tough
+permission:
+  default: 0
+type: class
+data:
+  name: ''
+  description: >-
+    <p>The Tough chooses how they’re tough – mentally, physically,
+    or emotionally – and in that area they’re almost untouchable.
+    The Bruiser’s all about taking a beating and getting up for more,
+    while the Daredevil takes defying danger up to the next level.
+    Tough plays well with Dedicated, for that weeble-wobble pulp
+    detective feel, but any of the other paths has something to
+    offer you..</p>
+  races:
+    '0':
+      label: Foster Kid
+      description: 'Start with Unbreakable'
+    '1':
+      label: Poet
+      description: 'Choose Charismatic Move'
+    '2':
+      label: Gang
+      description: 'Choose a strong Move'
+    '3':
+      label: Create your own
+      description: 'Justify a choice of move to the GM'
+  alignments:
+    '0':
+      label: Mortal
+      description: You have a drive related to the mortal realm.
+    '1':
+      label: Other
+      description: You have a drive related to the shadow world.
+  equipment: ''
+  hp: 10
+  load: 10
+  damage: d10
+flags: {}
+img: systems/dungeonworld/assets/icons/skills/yellow_27.webp
+effects: []

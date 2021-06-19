@@ -1,0 +1,43 @@
+name: The Strong
+permission:
+  default: 0
+type: class
+data:
+  name: ''
+  description: >-
+    <p>The Strong is all about displaying strength, from a signature
+    melee weapon to hitting obscenely hard to impressing people
+    with their muscle.</p>
+    <p>The Weapon Expert puts the signature weapon to good use,
+    applying strength in a controlled fashion, while the Athlete is
+    all about being a comeback kid.</p>
+    <p>The natural pair for Strong is Tough or Fast, making those
+    toe-to-toe slugfests with a werewolf a little more survivable –
+    but Dedicated has a lot to offer too.</p>
+  races:
+    '0':
+      label: Soldier
+      description: 'Start with Reputation'
+    '1':
+      label: Cop
+      description: 'Choose Dedicated Move'
+    '2':
+      label: Bouncer
+      description: 'Choose a Tough Move'
+    '3':
+      label: Create your own
+      description: 'Justify a choice of move to the GM'      
+  alignments:
+    '0':
+      label: Mortal
+      description: You have a drive related to the mortal realm.
+    '1':
+      label: Other
+      description: You have a drive related to the shadow world.
+  equipment: ''
+  hp: 8
+  load: 12
+  damage: d10
+flags: {}
+img: systems/dungeonworld/assets/icons/skills/yellow_27.webp
+effects: []
