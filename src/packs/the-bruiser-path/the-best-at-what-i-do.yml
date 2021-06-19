@@ -1,0 +1,24 @@
+name: The Best at what I do
+permission:
+  default: 0
+type: move
+data:
+  name: ''
+  description: >-
+    <p>Choose another Move you know. When you use that Move in
+    combat, you get two benefits, chosen by the GM now.</p> 
+    <ul>
+    <li>you get one bonus hold for it or it costs one hold less than usual</li> 
+    <li>you can use it once per combat without rolling for it or as if you’d rolled a 10+</li> 
+    <li>you roll it with +1, and +2 damage or double damage</li>
+    </ul>
+    <p>The GM may offer you a different option or decline to choose any;
+    if you can’t agree, choose another Move instead of this one.</p>     
+  rollType: ''
+  rollMod: 0
+  requiresLevel: 1
+  requiresMove: ''
+  class: 'The Tough'
+  moveType: advanced
+flags: {}
+img: icons/svg/mystery-man.svg

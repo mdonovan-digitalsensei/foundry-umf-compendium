@@ -1,0 +1,23 @@
+name: Cool Ride
+permission:
+  default: 0
+type: move
+data:
+  name: ''
+  description: >-
+    <p>Designate a vehicle as your wheels. When you get in it, hold 3 Cool.
+    Spend Cool while you’re in your vehicle:</p>
+    <ul>
+    <li>to gain School of Hard Knocks with the source “risk of harm to my vehicle or someone in it”.</li>
+    <li>to purchase defend options when defending your vehicle or a passenger in it</li>
+    <li>to count as hold for any other Move, as long as the GM okays it</li>
+    <p>If your vehicle is lost to you, you may choose a new vehicle after a
+    suitable period of mourning and some time to tinker..</p>     
+  rollType: ''
+  rollMod: 0
+  requiresLevel: 1
+  requiresMove: ''
+  class: 'The Tough'
+  moveType: advanced
+flags: {}
+img: icons/svg/mystery-man.svg

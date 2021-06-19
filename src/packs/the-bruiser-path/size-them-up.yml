@@ -1,0 +1,21 @@
+name: Size them up
+permission:
+  default: 0
+type: move
+data:
+  name: ''
+  description: >-
+    <p>When you face a foe or group of foes, choose:</p> 
+    <ul>
+    <li>you know how much damage they can dish out </li>
+    <li>you can tell how much damage they can take </li>
+    <li>tell the GM you know both, but you misjudged them in one way;</li>
+    </ul>    
+  rollType: ''
+  rollMod: 0
+  requiresLevel: 1
+  requiresMove: ''
+  class: 'The Tough'
+  moveType: advanced
+flags: {}
+img: icons/svg/mystery-man.svg

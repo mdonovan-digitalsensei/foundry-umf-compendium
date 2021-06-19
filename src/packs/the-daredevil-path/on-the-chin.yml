@@ -1,0 +1,17 @@
+name: Cool Scar
+permission:
+  default: 0
+type: move
+data:
+  name: ''
+  description: >-
+    <p>When you defy danger with a bonus granted by School of Hard
+    Knocks, you may mark a debility to succeed as if you rolled a 10+..</p>     
+  rollType: ''
+  rollMod: 0
+  requiresLevel: 1
+  requiresMove: ''
+  class: 'The Tough'
+  moveType: advanced
+flags: {}
+img: icons/svg/mystery-man.svg

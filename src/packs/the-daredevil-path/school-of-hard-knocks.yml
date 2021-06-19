@@ -1,0 +1,22 @@
+name: School of Hard Knocks
+permission:
+  default: 0
+type: move
+data:
+  name: ''
+  description: >-
+    <p>Choose one of the following. You take +1 to defy danger against a
+    danger caused by that source.</p>
+    <ul>
+    <li>magic that affects you in one of the following areas: physically,
+    emotionally, or mentally (pick one now)</li> 
+    <li>movement, like rushing past someone or falling off a wet rooftop</li> 
+    <li>trickery, subterfuge, or lies</li>
+  rollType: ''
+  rollMod: 0
+  requiresLevel: 1
+  requiresMove: ''
+  class: 'The Tough'
+  moveType: advanced
+flags: {}
+img: icons/svg/mystery-man.svg

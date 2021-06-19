@@ -1,0 +1,23 @@
+name: Cool Scar
+permission:
+  default: 0
+type: move
+data:
+  name: ''
+  description: >-
+    <p>You’ve got a wicked looking scar; describe it and how you got it, if it
+    didn’t happen on screen. Choose one:</p>
+    <ul>
+    <li>a type of creature is afraid of you because of it</li>
+    <li>a type of creature is impressed or awed by it</li>
+    <ul>
+    <p>When you show off your scar to a group of people, they’ll pay
+    attention to the story you spin.</p>     
+  rollType: ''
+  rollMod: 0
+  requiresLevel: 1
+  requiresMove: ''
+  class: 'The Tough'
+  moveType: advanced
+flags: {}
+img: icons/svg/mystery-man.svg

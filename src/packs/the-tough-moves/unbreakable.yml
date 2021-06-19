@@ -1,0 +1,20 @@
+name: Unbreakable
+permission:
+  default: 0
+type: move
+data:
+  name: ''
+  description: >-
+    <p>Choose one area you’re especially tough in, like emotionally,
+    physically, or mentally. When your HP reaches max, hold 3 Grit,
+    losing any you already had. You can spend one Grit to halve an
+    attack’s effect or damage if you can explain how being tough in
+    that area would help.</p>
+  rollType: ''
+  rollMod: 0
+  requiresLevel: 1
+  requiresMove: ''
+  class: 'The Tough'
+  moveType: advanced
+flags: {}
+img: icons/svg/mystery-man.svg

@@ -1,0 +1,18 @@
+name: Voice of Experience
+permission:
+  default: 0
+type: move
+data:
+  name: ''
+  description: >-
+    <p>Add one more pick to your School of Hard Knocks and upgrade the
+    benefits to a +2. When you defy danger against any source, on a
+    12+, you turn the danger back on itself; the GM will say how..</p>     
+  rollType: ''
+  rollMod: 0
+  requiresLevel: 1
+  requiresMove: ''
+  class: 'The Tough'
+  moveType: advanced
+flags: {}
+img: icons/svg/mystery-man.svg

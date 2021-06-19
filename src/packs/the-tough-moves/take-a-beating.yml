@@ -1,0 +1,38 @@
+name: Take a Beating
+permission:
+  default: 0
+type: move
+data:
+  name: ''
+  description: >-
+    <p>When you take a beating from someone with no pressing reason
+    to kill you, roll+CON. On a hit, they’ll just dump you somewhere
+    inconvenient or leave you. On a 10+, hold 3. On a 7-9, hold 1. Spend
+    hold to choose:</p> 
+  choices: >-
+    <ul>
+    <li>it wasn’t as bad as it looked; regain 2d6 HP (can choose more than once) </li>
+    <li>they dropped something of use or let something slip they shouldn’t have </li>
+    <li>they respect you now or think you’re dead/out, your choice<li>
+    </ul>
+  rollType: Con
+  rollMod: 0
+  requiresLevel: 1
+  requiresMove: ''
+  class: 'The Tough'
+  moveType: starting
+  moveResults:
+    failure:
+      value: ''
+    partial:
+      value: >-
+        <p>On a hit, they’ll just dump you somewhere
+        inconvenient or leave you. On a 10+, hold 3. On a 7-9, hold 1. Spend
+        hold to choose:</p>
+    success:
+      value: >-
+        <p>On a hit, they’ll just dump you somewhere
+        inconvenient or leave you. On a 10+, hold 3. On a 7-9, hold 1. Spend
+        hold to choose:</p>
+flags: {}
+img: icons/svg/mystery-man.svg

@@ -1,0 +1,17 @@
+name: I Get Back Up Again
+permission:
+  default: 0
+type: move
+data:
+  name: ''
+  description: >-
+    <p>If you have Unbreakable and you take damage you don’t reduce
+    with Unbreakable, you gain +1 Grit, up to a total of 3.</p>
+  rollType: ''
+  rollMod: 0
+  requiresLevel: 1
+  requiresMove: ''
+  class: 'The Tough'
+  moveType: advanced
+flags: {}
+img: icons/svg/mystery-man.svg

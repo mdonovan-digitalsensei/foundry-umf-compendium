@@ -28,9 +28,99 @@
             "label": "The Rogue Path",
             "path": "/packs/the-rogue-path.db",
             "entity": "Item"
+        },
+        {
+            "name": "the-athlete-path",
+            "label": "The Athlete Path",
+            "path": "/packs/the-athlete-path.db",
+            "entity": "Item"
+        },
+        {
+            "name": "the-bruiser-path",
+            "label": "The Bruiser Path",
+            "path": "/packs/the-bruiser-path.db",
+            "entity": "Item"
+        },
+        {
+            "name": "the-celebrity-path",
+            "label": "The Celebrity Path",
+            "path": "/packs/the-celebrity-path.db",
+            "entity": "Item"
+        },
+        {
+            "name": "the-charismatic-moves",
+            "label": "The Charismatic Moves",
+            "path": "/packs/the-charismatic-moves.db",
+            "entity": "Item"
+        },
+        {
+            "name": "the-daredevil-path",
+            "label": "The Daredevil Path",
+            "path": "/packs/the-daredevil-path.db",
+            "entity": "Item"
+        },
+        {
+            "name": "the-dedicated-moves",
+            "label": "The Dedicated Moves",
+            "path": "/packs/the-dedicated-moves.db",
+            "entity": "Item"
+        },
+        {
+            "name": "the-field-scientist-path",
+            "label": "The Field Scientist Path",
+            "path": "/packs/the-field-scientist-path.db",
+            "entity": "Item"
+        },
+        {
+            "name": "the-genius-moves",
+            "label": "The Genius Moves",
+            "path": "/packs/the-genius-moves.db",
+            "entity": "Item"
+        },
+        {
+            "name": "the-hacker-path",
+            "label": "The Hacker Path",
+            "path": "/packs/the-hacker-path.db",
+            "entity": "Item"
+        },
+        {
+            "name": "the-investigator-path",
+            "label": "The Investigator Path",
+            "path": "/packs/the-investigator-path.db",
+            "entity": "Item"
+        },
+        {
+            "name": "the-manipulator-path",
+            "label": "The Manipulator Path",
+            "path": "/packs/the-manipulator-path.db",
+            "entity": "Item"
+        },
+        {
+            "name": "the-organizer-path",
+            "label": "The Organiser Path",
+            "path": "/packs/the-organizer-path.db",
+            "entity": "Item"
+        },
+        {
+            "name": "the-strong-moves",
+            "label": "The Strong Moves",
+            "path": "/packs/the-strong-moves.db",
+            "entity": "Item"
+        },
+        {
+            "name": "the-tough-moves",
+            "label": "The Tough Moves",
+            "path": "/packs/the-tough-moves.db",
+            "entity": "Item"
+        },
+        {
+            "name": "the-weapon-expert-path",
+            "label": "The Weapon Expert Path",
+            "path": "/packs/the-weapon-expert-path.db",
+            "entity": "Item"
         }
     ],
-    "system": "pbta",
+    "system": "dungeonworld",
     "url": "https://github.com/mdonovan-digitalsensei/foundry-umf-compendium",
     "manifest": "https://raw.githubusercontent.com/mdonovan-digitalsensei/foundry-umf-compendium/main/src/module.json",
     "download": "https://github.com/mdonovan-digitalsensei/foundry-umf-compendium/releases/latest/download/foundry-umf-compendium.zip"

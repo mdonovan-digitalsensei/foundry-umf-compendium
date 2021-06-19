@@ -1,0 +1,17 @@
+name: Weather the Storm
+permission:
+  default: 0
+type: move
+data:
+  name: ''
+  description: >-
+    <p>When you take damage from or suffer an effect that affects your
+    Unbreakable or Tough as Nails area, mark a debility not to.</p>
+  rollType: ''
+  rollMod: 0
+  requiresLevel: 1
+  requiresMove: ''
+  class: 'The Tough'
+  moveType: advanced
+flags: {}
+img: icons/svg/mystery-man.svg
