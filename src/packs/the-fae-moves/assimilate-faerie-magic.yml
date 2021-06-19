@@ -1,0 +1,30 @@
+name: Assimilate Faerie Magic
+permission:
+  default: 0
+type: move
+data:
+  name: ''
+  description: >-
+    <p>When faerie magic is used near you, roll+WIS.</p>
+  choices: >-
+    <ul>
+    </ul>
+  rollType: WIS
+  rollMod: 0
+  requiresLevel: 1
+  requiresMove: ''
+  class: ''
+  moveType: advanced
+  moveResults:
+    failure:
+      value: ''
+    partial:
+      value: >-
+        <p> You learn that faerie enchantment, but your
+        understanding is flawed; you take -1 to weave that
+        enchantment.</p>
+    success:
+      value: >-
+        <p> you learn that faerie enchantment.</p>
+flags: {}
+img: icons/svg/mystery-man.svg
