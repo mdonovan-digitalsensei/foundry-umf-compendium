@@ -1,0 +1,35 @@
+name: Through the Hedge
+permission:
+  default: 0
+type: move
+data:
+  name: ''
+  description: >-
+    <p>You may slip into the ancient hedge maze that separates
+    Faerie from the Real through any opening that separates two
+    distinct places. When you do, roll+WIS. On a 10+, you step
+    back out where you wish to be, you are not in a bad spot or
+    late, and nothing followed you. On a 7-9, choose two.</p>
+  choices: >-
+    <ul>
+    <li>you are not in a bad spot</li>
+    <li>you are not late</li>
+    <li>nothing followed you</li>
+    </ul>
+  rollType: WIS
+  rollMod: 0
+  requiresLevel: 1
+  requiresMove: ''
+  class: ''
+  moveType: advanced
+  moveResults:
+    failure:
+      value: ''
+    partial:
+      value: >-
+        <p>you step back out where you wish to be, but also choose two</p>
+    success:
+      value: >-
+        <p>you step back out where you wish to be</p>
+flags: {}
+img: icons/svg/mystery-man.svg

@@ -1,0 +1,21 @@
+name: Trickster
+permission:
+  default: 0
+type: move
+data:
+  name: ''
+  description: >-
+    <p>You are no longer limited to a normalized facade with your
+    Seeming; from a burning coal to a ragged beggar, your
+    Seeming is under your command and you may opt to change
+    it when you wish with a moment’s thought. However, it will be
+    much less effective against anyone who sees you change, and
+    you always retain a specific mark of your true self.</p> 
+  rollType: ''
+  rollMod: 0
+  requiresLevel: 1
+  requiresMove: ''
+  class: ''
+  moveType: advanced
+flags: {}
+img: icons/svg/mystery-man.svg

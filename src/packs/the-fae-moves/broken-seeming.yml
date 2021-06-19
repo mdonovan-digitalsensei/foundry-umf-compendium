@@ -1,0 +1,25 @@
+name: Broken Seeming
+permission:
+  default: 0
+type: move
+data:
+  name: ''
+  description: >-
+    <p>You have faerie magic clinging to you, and you can’t get out
+    from under it. Choose a Seeming, like old curmudgeon, demure
+    wallflower, or adorable child; this is who most mortals (and
+    supernaturals who aren’t paying close attention) will think
+    you are.</p>
+    <p>Even if shown evidence to the contrary, they’ll rationalize it
+    away, though they won’t forget things they already knew or
+    let you stab them twice. You’re stuck with it. If you’re ever
+    stripped of it in play permanently, replace this Move
+    immediately with a new one.</p> 
+  rollType: ''
+  rollMod: 0
+  requiresLevel: 1
+  requiresMove: ''
+  class: ''
+  moveType: advanced
+flags: {}
+img: icons/svg/mystery-man.svg

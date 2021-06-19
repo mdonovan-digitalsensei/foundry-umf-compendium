@@ -1,0 +1,17 @@
+name: Faerie Magic
+permission:
+  default: 0
+type: move
+data:
+  name: ''
+  description: >-
+    <p>Choose any two cantrips or rotes; you may spend one elan to
+    use either.</p> 
+  rollType: ''
+  rollMod: 0
+  requiresLevel: 1
+  requiresMove: ''
+  class: ''
+  moveType: advanced
+flags: {}
+img: icons/svg/mystery-man.svg

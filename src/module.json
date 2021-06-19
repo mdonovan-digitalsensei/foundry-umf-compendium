@@ -2,7 +2,7 @@
     "name": "UMF_Pack",
     "title": "UMF pack for dungeon world",
     "description": "yadda",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "compatibleCoreVersion": "0.8.7",
     "author": "MD",
     "packs": [
@@ -112,6 +112,18 @@
             "name": "the-tough-moves",
             "label": "The Tough Moves",
             "path": "/packs/the-tough-moves.db",
+            "entity": "Item"
+        },
+        {
+            "name": "the-fae-moves",
+            "label": "The Fae Moves",
+            "path": "/packs/the-fae-moves.db",
+            "entity": "Item"
+        },
+        {
+            "name": "the-haunted-moves",
+            "label": "The Haunted Moves",
+            "path": "/packs/the-haunted-moves.db",
             "entity": "Item"
         },
         {

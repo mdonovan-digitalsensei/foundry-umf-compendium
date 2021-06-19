@@ -1,0 +1,27 @@
+name: Open to Possesion
+permission:
+  default: 0
+type: move
+data:
+  name: ''
+  description: >-
+    <p>When you take a spirit into your body, gain Spirit hold equal
+    to the better of your CON or WIS, plus 1. You learn what it
+    wants and what it excelled at in life, if anything. Spend this
+    hold to:</p>
+    <ul>
+    <li>succeed at a task the spirit excelled at in life</li>
+    <li>ignore a compulsion or mind-affecting effect</li>
+    <li>heal yourself or someone else by 2d6</li>
+    <li>evict a spirit from your body</li>
+    </ul>
+    <p>When you run out of hold, the spirit attempts to take over to
+    pursu its own business or leaves, GM’s choice.</p>
+  rollType: ''
+  rollMod: 0
+  requiresLevel: 1
+  requiresMove: ''
+  class: ''
+  moveType: advanced
+flags: {}
+img: icons/svg/mystery-man.svg

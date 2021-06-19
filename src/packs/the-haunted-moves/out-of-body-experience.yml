@@ -1,0 +1,35 @@
+name: Out of Body Experience
+permission:
+  default: 0
+type: move
+data:
+  name: ''
+  description: >-
+    <p>When you leave your body while asleep or meditating, you
+    gain Ghost and Emotional Anchor and lose access to any
+    abilities that require a mortal body. If you have Open to
+    Possession, exchange it for Possession. When you attempt to
+    re-enter your body, roll+WIS.</p>
+  choices: >-
+    <ul>
+    <li>something followed you back</li>
+    <li>take -1 to use your body until you sleep again</li>
+    <li>it was painful; take damage</li>
+    </ul>
+  rollType: WIS
+  rollMod: 0
+  requiresLevel: 1
+  requiresMove: ''
+  class: ''
+  moveType: starting
+  moveResults:
+    failure:
+      value: ''
+    partial:
+      value: >-
+        <p>You succeed, but choose one:</p>
+    success:
+      value: >-
+        <p>you succeed; swap your moves back. </p>
+flags: {}
+img: icons/svg/mystery-man.svg

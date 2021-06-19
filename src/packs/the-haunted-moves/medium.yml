@@ -1,0 +1,34 @@
+name: Medium
+permission:
+  default: 0
+type: move
+data:
+  name: ''
+  description: >-
+    <p>You can see and hear spirits as if they were living people,
+    though not always reliably, and you always know when they’re
+    around, in general. When you wake up after sleeping,
+    roll+WIS. You may spend numen to:</p>
+  choices: >-
+    <ul>
+    <li>ask a spirit a question and get an honest answer</li>
+    <li>summon a spirit by name or get one’s attention</li>
+    <li>demand a spirit do a minor favor for you</li>
+    </ul>
+  rollType: WIS
+  rollMod: 0
+  requiresLevel: 1
+  requiresMove: ''
+  class: ''
+  moveType: starting
+  moveResults:
+    failure:
+      value: ''
+    partial:
+      value: >-
+        <p>Hold 1 numen</p>
+    success:
+      value: >-
+        <p>Hold 3 Numen</p>
+flags: {}
+img: icons/svg/mystery-man.svg

@@ -1,0 +1,21 @@
+name: Courted
+permission:
+  default: 0
+type: move
+data:
+  name: ''
+  description: >-
+    <p>You spent time in Faerie. Hours, years, centuries –
+    time flows differently there. You’re as familiar with Faerie
+    as anyone who wasn’t actually born there, but
+    someone or something of Faerie wants you back. Take
+    +1 when enduring injustice, feigning obedience, or
+    escaping from anything.</p> 
+  rollType: ''
+  rollMod: 0
+  requiresLevel: 1
+  requiresMove: ''
+  class: ''
+  moveType: advanced
+flags: {}
+img: icons/svg/mystery-man.svg

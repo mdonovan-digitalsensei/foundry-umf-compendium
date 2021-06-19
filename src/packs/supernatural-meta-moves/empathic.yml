@@ -1,0 +1,25 @@
+name: Empathic
+permission:
+  default: 0
+type: move
+data:
+  name: ''
+  description: >-
+    <p>You pick up emotions from those around you at all times.
+    When you’re empathizing, intuiting motives, or trying to
+    figure out what someone wants, take +1. When you spend a
+    few moments within reach of someone, you can spout lore
+    about them, in the context of how they are feeling now, using
+    WIS instead of INT.</p>
+    <p>When you focus your senses on someone within close range,
+    you may ask their player, “what’s your deepest emotional need?”
+    and “what’s your strongest desire right now?” and the player
+    will answer truthfully, even if the character doesn’t know.</p>
+  rollType: ''
+  rollMod: 0
+  requiresLevel: 1
+  requiresMove: ''
+  class: ''
+  moveType: advanced
+flags: {}
+img: icons/svg/mystery-man.svg

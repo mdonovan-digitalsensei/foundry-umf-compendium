@@ -1,0 +1,18 @@
+name: With the Dead
+permission:
+  default: 0
+type: move
+data:
+  name: ''
+  description: >-
+    <p>You gain Poltergeist and may use it as if you are a ghost.
+    Choose one move from the Psychic path that blends with
+    your medium abilities.</p>    
+  rollType: ''
+  rollMod: 0
+  requiresLevel: 1
+  requiresMove: ''
+  class: ''
+  moveType: advanced
+flags: {}
+img: icons/svg/mystery-man.svg

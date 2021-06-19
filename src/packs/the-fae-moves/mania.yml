@@ -1,0 +1,39 @@
+name: Mania
+permission:
+  default: 0
+type: move
+data:
+  name: ''
+  description: >-
+    <p>When you turn your Seeming up to eleven to induce a specific
+    emotion, roll+CHA. On a 10+, anyone looking at you feels that
+    emotion strongly; they will act as you would expect them to
+    act, given who they are. On a 7-9, the GM will offer you a hard
+    bargain, ugly choice, or worse outcome. On a 12+, say how
+    they are overwhelmed; if the GM disagrees, mark XP.</p>
+  choices: >-
+    <ul>
+    </ul>
+  rollType: WIS
+  rollMod: 0
+  requiresLevel: 1
+  requiresMove: ''
+  class: ''
+  moveType: advanced
+  moveResults:
+    failure:
+      value: ''
+    partial:
+      value: >-
+        <p>anyone looking at you feels that
+        emotion strongly; they will act as you would expect them to
+        act, given who they are. On a 7-9, the GM will offer you a hard
+        bargain, ugly choice, or worse outcome</p>
+    success:
+      value: >-
+        <p> anyone looking at you feels that
+        emotion strongly; they will act as you would expect them to
+        act, given who they are.</p>
+        <p> On a 12+, say how they are overwhelmed; if the GM disagrees, mark XP.</p>
+flags: {}
+img: icons/svg/mystery-man.svg

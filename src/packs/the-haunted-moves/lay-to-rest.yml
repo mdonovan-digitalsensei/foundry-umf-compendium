@@ -1,0 +1,21 @@
+name: Lay to Rest
+permission:
+  default: 0
+type: move
+data:
+  name: ''
+  description: >-
+    <p>Spend numen to force a spirit you can see to materialize
+    physically or to prevent them from dematerializing for a short
+    while. You may also spend numen to ask the GM, “what must
+    be done to lay this spirit to rest?” when you are in a spirit’s
+    haunt. Take +1 ongoing while directly pursuing that goal, until
+    you achieve it or ask about another spirit.</p>
+  rollType: ''
+  rollMod: 0
+  requiresLevel: 1
+  requiresMove: ''
+  class: ''
+  moveType: advanced
+flags: {}
+img: icons/svg/mystery-man.svg

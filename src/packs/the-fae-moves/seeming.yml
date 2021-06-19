@@ -1,0 +1,40 @@
+name: Seeming (Wis or CHA)
+permission:
+  default: 0
+type: move
+data:
+  name: ''
+  description: >-
+    <p>You have a Seeming, a normalized facade, that hides your true
+    nature, like girl next door, friendly salesman, or helpful
+    librarian. When mortals (and supernaturals who aren’t paying
+    close attention) look at you, that’s what they see, unless given
+    serious cause to doubt.</p>
+    <p>When you pass your Seeming off as truth against someone
+    who might see through it, roll+WIS or +CHA. On a 10+, they
+    don’t notice what you wish them not to or believe what you
+    wish them to about you, your choice. On a 7-9, the GM will
+    tell you what confirmation they require.</p>
+  choices: >-
+    <ul>
+    </ul>
+  rollType: ASK
+  rollMod: 0
+  requiresLevel: 1
+  requiresMove: ''
+  class: ''
+  moveType: advanced
+  moveResults:
+    failure:
+      value: ''
+    partial:
+      value: >-
+        <p>On a 10+, they don’t notice what you wish them not to or believe what you
+        wish them to about you, your choice. On a 7-9, the GM will
+        tell you what confirmation they require.</p>
+    success:
+      value: >-
+        <p>they don’t notice what you wish them not to or believe what you
+        wish them to about you, your choice.</p>
+flags: {}
+img: icons/svg/mystery-man.svg

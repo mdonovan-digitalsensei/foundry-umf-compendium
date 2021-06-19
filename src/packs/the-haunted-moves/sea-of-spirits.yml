@@ -1,0 +1,22 @@
+name: Sea of Spirits
+permission:
+  default: 0
+type: move
+data:
+  name: ''
+  description: >-
+    <p>When you confuse reality and the spirit world, explain how;
+    choose one.</p>
+    <ul>
+    <li>you learn something useful but unfortunate</li>
+    <li>you sidestep a real danger accidentally</li>
+    <li>it causes you a problem, embarrassment, or puts someone you’d rather not be in danger; mark XP</li>
+    </ul>
+  rollType: ''
+  rollMod: 0
+  requiresLevel: 1
+  requiresMove: ''
+  class: ''
+  moveType: advanced
+flags: {}
+img: icons/svg/mystery-man.svg

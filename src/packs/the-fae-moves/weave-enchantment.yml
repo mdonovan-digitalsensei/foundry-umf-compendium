@@ -1,0 +1,34 @@
+name: Weave Enchantment
+permission:
+  default: 0
+type: move
+data:
+  name: ''
+  description: >-
+    <p>When you weave a faerie enchantment you’ve learned, spend 1 elan and roll+CHA. On a 10+, it works. On a 7-9, also choose
+    one:
+    <p>On a 12+, in addition to any other effects, you no longer have a
+    flawed understanding of it.</p>
+  choices: >-
+    <ul>
+    <li>you put yourself in a spot</li>
+    <li>your Seeming falters or you attract unwanted notice</li>
+    <li>you take -1 to weave enchantment until you regain elan</li>
+    </ul>
+  rollType: WIS
+  rollMod: 0
+  requiresLevel: 1
+  requiresMove: ''
+  class: ''
+  moveType: advanced
+  moveResults:
+    failure:
+      value: ''
+    partial:
+      value: >-
+        <p>On a 10+, it works. On a 7-9, also choose one:</p>
+    success:
+      value: >-
+        <p>On a 10+, it works. On a 7-9, also choose one:</p>
+flags: {}
+img: icons/svg/mystery-man.svg
