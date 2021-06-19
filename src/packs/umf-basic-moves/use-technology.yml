@@ -1,0 +1,32 @@
+name: Use Technology
+permission:
+  default: 0
+type: move
+data:
+  name: ''
+  description: >-
+    <p>When you use an unfamiliar or protected technology,
+    roll+INT. On a 10+, you use it as you intended. On a 7-9, it
+    works, but there’s an unexpected side effect. Usually, if you
+    spend a few hours getting comfortable with technology or roll
+    12+, it’s familiar to you.</p>
+  choices: >-
+    <ul>    
+    </ul>
+  rollType: DEX
+  rollMod: 0
+  requiresLevel: 1
+  requiresMove: ''
+  class: ''
+  moveType: basic
+  moveResults:
+    failure:
+      value: ''
+    partial:
+      value: >-
+        <p>it works, but there’s an unexpected side effect./p>
+    success:
+      value: >-
+        <p> you use it as you intended.</p>
+flags: {}
+img: icons/svg/mystery-man.svg

@@ -1,0 +1,52 @@
+name: Manifest Power
+permission:
+  default: 0
+type: move
+data:
+  name: ''
+  description: >-
+    <p>When you<strong> use extaordinary powers to do something consitent with your premise or established abilities</strong>, roll
+    +STAT.</p>
+    <p>This is the Move that triggers when you have supernatural
+    abilities and you’re trying to do something you should be
+    able to do, given what you are, but that isn’t explicitly spelled
+    out in the rules. It allows you to represent your premise, even
+    if you don’t yet have advanced moves from your paths.<p>
+    <p?“Bad news, those two werewolves have followed you out to the
+    parking lot, and they’re joking about staking you out for the
+    sun,” the GM says.</p>
+    <p>“I’ve been a vampire for like two nights,” Charlie complains.
+    “I’m going to go crazy on them, just vamp out.”<p>
+    <p>“You don’t have that move yet, but that’s how you described
+    Elliot when he lost control feeding earlier, right? So that’s part
+    of your premise,” the GM says. “Sounds like Manifest Power.”</p>
+    <p>A 10, and Charlie picks “lose a resource”. The GM nods. “As you
+    teeter on the edge of control, you can feel you’re running
+    through Blood way faster than you should be. What do you do?”</p>
+    <p>Remember to always use the most specific Move you’ve got!</p>
+  choices: >-
+    <ul>
+    <li>You attract unwanted notice.</li>
+    <li>You cause collateral damage or unintended injury.</li>
+    <li>you get hurt.</li>
+    <li>the outcome is worse than you hoped</li>
+    <li>You owe someone a debt.</li>
+    <li>You lose a resource.</li>
+    </ul>
+  rollType: ASK
+  rollMod: 0
+  requiresLevel: 1
+  requiresMove: ''
+  class: ''
+  moveType: basic
+  moveResults:
+    failure:
+      value: ''
+    partial:
+      value: >-
+        <p>Choose one and the GM chooses one as well.</p>
+    success:
+      value: >-
+        <p>Choose one</p>
+flags: {}
+img: icons/svg/mystery-man.svg

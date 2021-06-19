@@ -1,0 +1,20 @@
+name: Pistol
+permission:
+  default: 0
+type: equipment
+data:
+  name: ''
+  description: >-
+    <p>A hand gun that uses a magazine for bullets</p>
+  class: ''
+  quantity: 1
+  weight: 1
+  uses: ''
+  tags: '[{"value":"1 rep"},{"value":"near"},{"value":"point-blank"},{"value":"ammo 3"},{"value":"1 piercing"},{"value":"1 weight"}]'
+  tagsString: 1 rep, near, point-blank, ammo 3, 1 piercing, 1 weight
+  magic: false
+  itemType: weapon
+  attributes: {}
+flags: {}
+img: ''
+effects: []

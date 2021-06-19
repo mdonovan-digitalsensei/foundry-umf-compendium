@@ -1,0 +1,44 @@
+name: Gain A Talent
+permission:
+  default: 0
+type: move
+data:
+  name: ''
+  description: >-
+    <p>When you roll 12+ while Defying Danger, you may add a talent
+    to your sheet that reflects the action you succeeded on. Ask
+    the GM what that talent is.</p>
+    <p>When you trigger a roll and a talent applies and would help,
+    take +1 to the roll. You can only use one talent’s bonus on any
+    given roll.</p>
+    <p>Talents don’t change if a Move triggers; just because you
+    have Talent [Lie Blatantly About Time] doesn’t mean you
+    can convince someone who can see the sun that it’s midnight.
+    It just means that if you’ve triggered a roll, like Defy Danger,
+    and it happens to involve a bald-faced lie about time, you get
+    a +1 to the roll.</p>
+    <p><strong>FOR THE GM:</strong> Talents allow you to codify narrow, specific
+    things the character is good at for later reference, to
+    reinforce the fiction, and they’re both prescriptive and
+    descriptive. Talents should be interpreted in context of the
+    fiction, and carefully. For example…</strong>
+    <p>…Talent [Exceptionally Risky Parkour] applies during a
+    climb up crates and a desperate leap for a fire escape</p>
+    <p>…Talent [Dodge the Bigger Guy] counts when sliding under
+    the ogre’s swing (but not for hacking and slashing him)</p>
+    <p>…Talent [Drive Too Fast] will help with making a hard left
+    while going 80mph in the rain</p>
+    <p>(MORE) STARTING TALENTS</p>
+    <p>Blatant Lie, Bodies Don’t Faze Me, Charge Into Horrible
+    Danger, Creative Writing, I Know You’re Not Human, Don’t
+    Faint, Eat Junk, Extremely Risky Parkour, Make a Hasty but
+    Graceful Exit, Saw <Monster> Handiwork Before, Spot a Fake,
+    Spot Trouble Brewing, Take a Punch, Tie Strong Knots   </p>
+  rollType: ''
+  rollMod: 0
+  requiresLevel: 0
+  requiresMove: ''
+  class: ''
+  moveType: basic
+flags: {}
+img: icons/svg/mystery-man.svg

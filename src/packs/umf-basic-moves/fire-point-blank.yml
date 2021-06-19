@@ -1,0 +1,32 @@
+name: Fire Point Blank
+permission:
+  default: 0
+type: move
+data:
+  name: ''
+  description: >-
+    <p></p>
+  choices: >-
+    <ul>
+    <li>you empty your clip or the weapon jams</li>
+    <li>they counterattack or deal damage</li>
+    <li>they take something away from you</li>
+    </ul>
+  rollType: DEX
+  rollMod: 0
+  requiresLevel: 1
+  requiresMove: ''
+  class: ''
+  moveType: basic
+  moveResults:
+    failure:
+      value: ''
+    partial:
+      value: >-
+        <p>you deal your damage but choose one./p>
+    success:
+      value: >-
+        <p>you deal your damage. You may opt to do an additional
+        1d6 damage if you tell the GM to choose one:</p>
+flags: {}
+img: icons/svg/mystery-man.svg

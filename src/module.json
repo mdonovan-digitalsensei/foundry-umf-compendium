@@ -2,7 +2,8 @@
     "name": "UMF_Pack",
     "title": "UMF pack for dungeon world",
     "description": "yadda",
-    "version": "0.0.0",
+    "version": "0.0.1",
+    "compatibleCoreVersion": "0.8.7",
     "author": "MD",
     "packs": [
         {
@@ -117,6 +118,12 @@
             "name": "the-weapon-expert-path",
             "label": "The Weapon Expert Path",
             "path": "/packs/the-weapon-expert-path.db",
+            "entity": "Item"
+        },
+        {
+            "name": "umf-basic-moves",
+            "label": "UMF Basic Moves",
+            "path": "/packs/umf-basic-moves.db",
             "entity": "Item"
         }
     ],

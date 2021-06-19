@@ -1,0 +1,20 @@
+name: Shotgun
+permission:
+  default: 0
+type: equipment
+data:
+  name: ''
+  description: >-
+    <p>A broom handled gun, often used for dealing with intruders</p>
+  class: ''
+  quantity: 1
+  weight: 1
+  uses: ''
+  tags: '[{"value":"1 rep"},{"value":"near"},{"value":"point-blank"},{"value":"scatter-shot"},{"value":"ammo 2"},{"value":"1 weight"}]'
+  tagsString: 1 rep, near, point-blank, scatter-shot, ammo 2, 1 weight
+  magic: false
+  itemType: weapon
+  attributes: {}
+flags: {}
+img: ''
+effects: []

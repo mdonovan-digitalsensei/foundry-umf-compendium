@@ -1,0 +1,44 @@
+name: Find Someone
+permission:
+  default: 0
+type: move
+data:
+  name: ''
+  description: >-
+    <p>When you go looking for someone who can help you,
+    roll+CHA. On a 10+, you find them and they’re open to
+    negotiation. On a 7-9, they’re in trouble or dealing with a
+    problem when you get there, or you have to settle for a lesser
+    version like an assistant or protege.</p>
+    <p>Use this move when you need information, help, gear, or
+    similar, either to find someone you already know
+    (whether or not they’ve made an appearance in the fiction), or
+    someone new.</p>
+    <p><strong>FOR THE GM:</strong> Remember to ask questions and use the
+    answers.</p>
+    <p>If the field Scientist asks you, “do I know anyone from my
+    college who is an expert in Egyptology?” feel free to ask them
+    in return, “do you? Are you rivals for the same tenure?”.</p>
+  choices: >-
+    <p>
+    </p>
+  rollType: CHA
+  rollMod: 0
+  requiresLevel: 1
+  requiresMove: ''
+  class: ''
+  moveType: basic
+  moveResults:
+    failure:
+      value: ''
+    partial:
+      value: >-
+        <p>you find them and they’re in trouble or dealing with a
+        problem when you get there, or you have to settle for a lesser
+        version like an assistant or protege/p>
+    success:
+      value: >-
+        <p>you find them and they’re open to
+        negotiation.</p>
+flags: {}
+img: icons/svg/mystery-man.svg

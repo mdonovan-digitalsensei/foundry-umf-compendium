@@ -1,0 +1,20 @@
+name: Rifle
+permission:
+  default: 0
+type: equipment
+data:
+  name: ''
+  description: >-
+    <p>A bolt action rifle often used in hunting</p>
+  class: ''
+  quantity: 1
+  weight: 2
+  uses: ''
+  tags: '[{"value":"2 rep"},{"value":"near"},{"value":"point-blank"},{"value":"ammo 3"},{"value":"1 piercing"},{"value":"1 weight"}]'
+  tagsString: 2 rep, far, ammo 2, 2 piercing, 2 weight
+  magic: false
+  itemType: weapon
+  attributes: {}
+flags: {}
+img: ''
+effects: []
