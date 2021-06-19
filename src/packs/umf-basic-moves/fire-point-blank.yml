@@ -5,7 +5,11 @@ type: move
 data:
   name: ''
   description: >-
-    <p></p>
+    <p>When you fire a suitable weapon against someone in your
+    face who has the will and means to hurt you, roll+DEX. On a
+    10+, you deal your damage. You may opt to do an additional
+    1d6 damage if you tell the GM to choose one. On a 7-9, deal
+    your damage and the GM will choose one:</p>
   choices: >-
     <ul>
     <li>you empty your clip or the weapon jams</li>

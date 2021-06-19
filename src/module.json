@@ -2,7 +2,7 @@
     "name": "UMF_Pack",
     "title": "UMF pack for dungeon world",
     "description": "yadda",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "compatibleCoreVersion": "0.8.7",
     "author": "MD",
     "packs": [
@@ -124,6 +124,12 @@
             "name": "umf-basic-moves",
             "label": "UMF Basic Moves",
             "path": "/packs/umf-basic-moves.db",
+            "entity": "Item"
+        },
+        {
+            "name": "umf-gear",
+            "label": "UMF Gear",
+            "path": "/packs/umf-gear.db",
             "entity": "Item"
         }
     ],
