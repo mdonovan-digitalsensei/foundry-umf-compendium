@@ -34,7 +34,6 @@ data:
     '1':
       label: Other
       description: You have a drive related to the shadow world.
-  equipment: ''
   hp: 8
   load: 12
   damage: d10

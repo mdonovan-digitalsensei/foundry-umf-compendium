@@ -16,5 +16,5 @@ data:
   itemType: weapon
   attributes: {}
 flags: {}
-img: ''
+img: Data/modules/UMF_Pack/icons/pistol.png
 effects: []
