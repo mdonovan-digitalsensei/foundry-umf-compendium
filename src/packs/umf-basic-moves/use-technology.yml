@@ -15,7 +15,7 @@ data:
     </ul>
   rollType: DEX
   rollMod: 0
-  requiresLevel: 1
+  requiresLevel: 0
   requiresMove: ''
   class: ''
   moveType: basic

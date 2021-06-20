@@ -24,7 +24,7 @@ data:
     </p>
   rollType: CHA
   rollMod: 0
-  requiresLevel: 1
+  requiresLevel: 0
   requiresMove: ''
   class: ''
   moveType: basic
