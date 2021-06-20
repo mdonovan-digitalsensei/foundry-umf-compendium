@@ -10,7 +10,7 @@ const fs = require("fs");
 const path = require("path");
 
 const MODULE = JSON.parse(fs.readFileSync("src/module.json"));
-const STATIC_FILES = ["src/module.json", "src/assets/**/*"];
+const STATIC_FILES = ["src/module.json", "src/assets/**/*", "src/icons/*"];
 const PACK_SRC = "src/packs";
 const BUILD_DIR = "build";
 const DIST_DIR = "dist";
