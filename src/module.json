@@ -145,9 +145,8 @@
             "entity": "Item"
         },
         {
-            "name": "umf-classes",
-            "label": "UMF Classes",
-            "system": "dungeonworld",
+            "name": "classes",
+            "label": "UMF Classes",            
             "path": "/packs/umf-classes.db",
             "entity": "Item"
         }
