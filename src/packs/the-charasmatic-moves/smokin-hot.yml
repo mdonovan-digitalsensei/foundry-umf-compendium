@@ -1,0 +1,33 @@
+name: Smokin Hot
+permission:
+  default: 0
+type: move
+data:
+  name: ''
+  description: >-
+    <p>When you<strong> attempt to use your looks or attitude to extract information</strong> roll+CHA</p>
+  choices: >-
+    <ul>
+    <li>Whom do you serve?</li>
+    <li>What do you wish I would do?</li>
+    <li>How can I get you to ______?</li>
+    <li>What are you really feeling right now?</li>
+    <li>What do you most desire?</li>
+    </ul>
+  rollType: CHA
+  rollMod: 0
+  requiresLevel: 0
+  requiresMove: ''
+  class: 'The Charismatic'
+  moveType: starting
+  moveResults:
+    failure:
+      value: ''
+    partial:
+      value: >-
+        <p>The GM will give you some information.</p>
+    success:
+      value: >-
+        <p>Ask one question, the GM will answer truthfully and gain a +1 forward on acting on the answer</p>
+flags: {}
+img: icons/svg/mystery-man.svg

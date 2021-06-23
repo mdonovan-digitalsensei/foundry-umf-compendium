@@ -67,3 +67,13 @@ jobs:
           asset_path: ${{ github.workspace }}/foundry-umf-compendium.zip
           asset_name: foundry-umf-compendium.zip
           asset_content_type: application/zip
+
+      - uses: sarisia/actions-status-discord@v1
+        if: always()
+        with:
+          webhook: ${{ secrets.DISCORD_WEBHOOK }}
+          title: "build"
+          description: "Build and deploy to GitHub Pages"          
+          color: 0x0000ff
+          username: GitHub Actions
+          
