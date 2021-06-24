@@ -1,0 +1,17 @@
+name: Lightning Reflexes
+permission:
+  default: 0
+type: move
+data:
+  name: ''
+  description: >-
+    <p>You move faster than most eyes can catch, all Dex based defy danger rolls have advantage unless
+    otherwise stated</p>
+  rollType: ''
+  rollMod: 0
+  requiresLevel: 0
+  requiresMove: ''
+  class: 'The Fast'
+  moveType: starting
+flags: {}
+img: icons/svg/mystery-man.svg

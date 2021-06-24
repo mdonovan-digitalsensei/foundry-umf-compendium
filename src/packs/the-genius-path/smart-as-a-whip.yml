@@ -1,0 +1,18 @@
+name: Smart as a Whip
+permission:
+  default: 0
+type: move
+data:
+  name: ''
+  description: >-
+    <p>You're just smarter than your average cat, once per session you can provide a reasonable
+    answer to a situation and state why it is true. The GM should work it into the fiction if 
+    possible.</p>     
+  rollType: ''
+  rollMod: 0
+  requiresLevel: 0
+  requiresMove: ''
+  class: 'The Genius'
+  moveType: starting
+flags: {}
+img: icons/svg/mystery-man.svg
