@@ -1,0 +1,19 @@
+name: Infected Blood
+permission:
+  default: 0
+type: move
+data:
+  name: ''
+  description: >-
+    <p>When you are bitten by a supernatural that feasts on blood they suffer 1d4 damage
+    as your blood has been infected by something deeply unpleasent.</p>
+    <p>Choose one statistic to be set to -1 permenantly as a side effect of whatever it is that 
+    has infected your blood</p>
+  rollType: ''
+  rollMod: 0
+  requiresLevel: 1
+  requiresMove: ''
+  class: ''
+  moveType: advanced
+flags: {}
+img: icons/svg/mystery-man.svg
