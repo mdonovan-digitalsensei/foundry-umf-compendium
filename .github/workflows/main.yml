@@ -73,7 +73,7 @@ jobs:
         with:
           webhook: ${{ secrets.DISCORD_WEBHOOK }}
           title: "build"
-          description: "New release uploaded https://github.com/mdonovan-digitalsensei/foundry-umf-compendium/releases/download/"${{ github.run_id }}"/foundry-umf-compendium.zip"          
+          description: "New release uploaded https://github.com/mdonovan-digitalsensei/foundry-umf-compendium/releases/download/${{ github.run_id }}/foundry-umf-compendium.zip"          
           color: 0x0000ff
           username: GitHub Actions
           
