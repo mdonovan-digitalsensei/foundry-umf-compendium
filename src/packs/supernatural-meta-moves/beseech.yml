@@ -1,0 +1,35 @@
+name: Absorption
+permission:
+  default: 0
+type: move
+data:
+  name: ''
+  description: >-
+    <p>When you beseech a powerful supernatural entity for assistance
+    with a task, roll+CHA</p>
+  choices: >-
+    <ul>
+    <li>the payment is due as soon as aid is rendered</li>
+    <li>they can provide almost but not quite what you ask</li>
+    <li>the entity is offended or annoyed, and won’t assist you
+    again until appeased</li>
+    </ul>
+  rollType: WIS
+  rollMod: 0
+  requiresLevel: 1
+  requiresMove: ''
+  class: ''
+  moveType: advanced
+  moveResults:
+    failure:
+      value: ''
+    partial:
+      value: >-
+        <p>the GM will tell you a cost, due
+        later; if you accept, also choose one.</p>
+    success:
+      value: >-
+        <p>the GM will tell you a cost, due
+        later; if you accept, the aid is granted.</p>
+flags: {}
+img: icons/svg/mystery-man.svg

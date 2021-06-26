@@ -1,0 +1,31 @@
+name: Minor Regeneration
+permission:
+  default: 0
+type: move
+data:
+  name: ''
+  description: >-
+    <p>You’re tougher than a normal human and your wounds close
+    up faster. When you drop below 3 HP and the damage was not
+    caused by a bane, roll+CON.</p>
+  choices: >-
+    <ul>    
+    </ul>
+  rollType: ASK
+  rollMod: 0
+  requiresLevel: 1
+  requiresMove: ''
+  class: ''
+  moveType: advanced
+  moveResults:
+    failure:
+      value: ''
+    partial:
+      value: >-
+        <p>Roll your base hp die plus CON and regain this in HP also choose if you
+        mark a debility or lose this move until you’ve had time to heal naturally</p>
+    success:
+      value: >-
+        <p>Roll your base hp die plus CON and regain this in HP.</p>
+flags: {}
+img: icons/svg/mystery-man.svg

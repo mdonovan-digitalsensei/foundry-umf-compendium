@@ -1,0 +1,24 @@
+name: Human Like You
+permission:
+  default: 0
+type: move
+data:
+  name: ''
+  description: >-
+    <p>You have a form that’s more or less human. You can switch
+    into it when you wish; nobody who matters will be fooled for
+    long, but mortals can’t tell the difference. You use your own
+    stats and have all your own abilities except for those that
+    require your natural form (GM’s call). Your human form is
+    unique to you, as if you’d been born human.</p>
+    <p>Choose two triggers, like the touch of cold iron or a strongly
+    presented crucifix or being touched by sunlight; when this
+    occurs, you revert to your natural form until it’s no longer true.</p>
+  rollType: ''
+  rollMod: 0
+  requiresLevel: 1
+  requiresMove: ''
+  class: ''
+  moveType: advanced
+flags: {}
+img: icons/svg/mystery-man.svg

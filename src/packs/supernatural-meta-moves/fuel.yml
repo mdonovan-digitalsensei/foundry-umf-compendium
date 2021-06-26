@@ -1,0 +1,31 @@
+name: Fuel
+permission:
+  default: 0
+type: move
+data:
+  name: ''
+  description: >-
+    <p>Choose a stat and an action, like sleeping for eight hours,
+    meditating through physical action, or opening your mind to
+    the collective unconscious, when you take this Move. When
+    you do this action, roll+stat.</p>
+  choices: >-
+    <ul>    
+    </ul>
+  rollType: ASK
+  rollMod: 0
+  requiresLevel: 1
+  requiresMove: ''
+  class: ''
+  moveType: advanced
+  moveResults:
+    failure:
+      value: ''
+    partial:
+      value: >-
+        <p>Add 1 superntaural hold</p>
+    success:
+      value: >-
+        <p>if you have no supernatural hold, hold 3; otherwise, add 2 hold</p>
+flags: {}
+img: icons/svg/mystery-man.svg

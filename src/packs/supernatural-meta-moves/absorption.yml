@@ -1,0 +1,28 @@
+name: Absorption
+permission:
+  default: 0
+type: move
+data:
+  name: ''
+  description: >-
+    <p>When you’re hit with a magical spell or effect, roll+WIS.</p>
+  choices: >-
+    <ul>    
+    </ul>
+  rollType: WIS
+  rollMod: 0
+  requiresLevel: 1
+  requiresMove: ''
+  class: ''
+  moveType: advanced
+  moveResults:
+    failure:
+      value: ''
+    partial:
+      value: >-
+        <p>Add 1 superntaural hold</p>
+    success:
+      value: >-
+        <p>gain 1 supernatural hold and take half damage or effect.</p>
+flags: {}
+img: icons/svg/mystery-man.svg
