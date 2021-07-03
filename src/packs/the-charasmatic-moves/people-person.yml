@@ -5,13 +5,27 @@ type: move
 data:
   name: ''
   description: >-
-    <p>Add “when you use your words when action would be easier and
-    maybe safer” as a new trigger for Smokin’ Hot..</p> 
-  rollType: ''
+    <p>When you<strong> attempt to smooth talk or use your looks to get out of trouble</strong> roll+CHA</p>
+  choices: >-
+    <ul>
+    <li>You manage avoid immediate danger but you know it will be back.</li>
+    <li>You manage to get out of the situation but now you owe a favor.</li>
+    <li></li>    
+    </ul>
+  rollType: CHA
   rollMod: 0
-  requiresLevel: 1
+  requiresLevel: 0
   requiresMove: ''
   class: 'The Charismatic'
-  moveType: advanced
+  moveType: starting
+  moveResults:
+    failure:
+      value: ''
+    partial:
+      value: >-
+        <p>While you manage to avoid the danger choose one:</p>
+    success:
+      value: >-
+        <p>You manage to avoid the danger.</p>
 flags: {}
 img: icons/svg/mystery-man.svg

@@ -1,0 +1,31 @@
+name: I'm on the List
+permission:
+  default: 0
+type: move
+data:
+  name: ''
+  description: >-
+    <p>When you<strong> attempt to get into an exclusive venue and claim that you are already on the guest list,</strong>, roll+CHA.</p>
+  choices: >-
+    <ul>
+    <li>You get in but you're on a time limit.</li>
+    <li>There's someone inside you'd sooner not meet.</li>
+    <li>You'll owe someone a favor.</li>
+    </ul>
+  rollType: CHA
+  rollMod: 0
+  requiresLevel: 1
+  requiresMove: ''
+  class: 'The Charismatic'
+  moveType: advanced
+  moveResults:
+    failure:
+      value: ''
+    partial:
+      value: >-
+        <p>You manage to get in but choose one</p>
+    success:
+      value: >-
+        <p>After a quick check of the list it seems you are on it.</p>
+flags: {}
+img: icons/svg/mystery-man.svg

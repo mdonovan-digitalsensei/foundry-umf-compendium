@@ -5,7 +5,7 @@ type: move
 data:
   name: ''
   description: >-
-    <p>When you lie boldly to someone’s face, you take a +1 forward to
+    <p><strong>When you lie boldly to someone’s face,</strong> you take a +1 forward to
     negotiate with them as long as you maintain the lie. On a 10+,
     they won’t question it unless it becomes an obvious lie..</p> 
   rollType: ''
