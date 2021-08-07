@@ -2,7 +2,7 @@
     "name": "UMF_Pack",
     "title": "UMF pack for dungeon world",
     "description": "yadda",
-    "version": "0.0.5",
+    "version": "0.0.6",
     "compatibleCoreVersion": "0.8.7",
     "author": "MD",
     "packs": [
@@ -58,6 +58,12 @@
             "name": "the-haunted-moves",
             "label": "The Haunted Moves",
             "path": "/packs/the-haunted-moves.db",
+            "entity": "Item"
+        },
+        {
+            "name": "supernatural-meta-moves",
+            "label": "The Supernatural Meta Moves",
+            "path": "/packs/supernatural-meta-moves.db",
             "entity": "Item"
         },
         {
